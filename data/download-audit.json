@@ -1,0 +1,567 @@
+{
+  "generator": "python -m tools.audit_downloads",
+  "manifest_sha256": "14b6b1c5df3e8ec4c321b3e99e8cfd145418a134efcaf232710f8f07724c97f3",
+  "passed": true,
+  "entries": [
+    {
+      "id": "dodge_image",
+      "title": "Charles Dodge \u2014 He Destroyed Her Image",
+      "files": [
+        {
+          "role": "download",
+          "path": "data/downloads/dodge_image/v41VQFSvtmU.webm",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true
+        },
+        {
+          "role": "source",
+          "path": "data/audio/dodge_image/source.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 122.64,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_16000",
+          "path": "data/audio/dodge_image/mono_16000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 122.64,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_24000",
+          "path": "data/audio/dodge_image/mono_24000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 122.64,
+          "metadata_matches": true
+        }
+      ]
+    },
+    {
+      "id": "beach",
+      "title": "Beach waves",
+      "files": [
+        {
+          "role": "download",
+          "path": "data/downloads/beach/mLYRUI03S7I.webm",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true
+        },
+        {
+          "role": "source",
+          "path": "data/audio/beach/source.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 180.0,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_16000",
+          "path": "data/audio/beach/mono_16000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 180.0,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_24000",
+          "path": "data/audio/beach/mono_24000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 180.0,
+          "metadata_matches": true
+        }
+      ]
+    },
+    {
+      "id": "rain",
+      "title": "Rain",
+      "files": [
+        {
+          "role": "download",
+          "path": "data/downloads/rain/fFZbjhL5RyA.webm",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true
+        },
+        {
+          "role": "source",
+          "path": "data/audio/rain/source.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 180.0,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_16000",
+          "path": "data/audio/rain/mono_16000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 180.0,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_24000",
+          "path": "data/audio/rain/mono_24000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 180.0,
+          "metadata_matches": true
+        }
+      ]
+    },
+    {
+      "id": "bach_cello",
+      "title": "Bach \u2014 Cello Suite No. 1 in G major, BWV 1007",
+      "files": [
+        {
+          "role": "download",
+          "path": "data/downloads/bach_cello/cGnZHIY_hoQ.webm",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true
+        },
+        {
+          "role": "source",
+          "path": "data/audio/bach_cello/source.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 1033.4853541666666,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_16000",
+          "path": "data/audio/bach_cello/mono_16000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 1033.485375,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_24000",
+          "path": "data/audio/bach_cello/mono_24000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 1033.485375,
+          "metadata_matches": true
+        }
+      ]
+    },
+    {
+      "id": "chopin_nocturne",
+      "title": "Chopin \u2014 Nocturne in E-flat major, Op. 9 No. 2",
+      "files": [
+        {
+          "role": "download",
+          "path": "data/downloads/chopin_nocturne/QR10Od1cLaM.webm",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true
+        },
+        {
+          "role": "source",
+          "path": "data/audio/chopin_nocturne/source.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 263.80191666666667,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_16000",
+          "path": "data/audio/chopin_nocturne/mono_16000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 263.8019375,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_24000",
+          "path": "data/audio/chopin_nocturne/mono_24000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 263.80191666666667,
+          "metadata_matches": true
+        }
+      ]
+    },
+    {
+      "id": "espresso",
+      "title": "Sabrina Carpenter \u2014 Espresso",
+      "files": [
+        {
+          "role": "download",
+          "path": "data/downloads/espresso/51zjlMhdSTE.webm",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true
+        },
+        {
+          "role": "source",
+          "path": "data/audio/espresso/source.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 175.438375,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_16000",
+          "path": "data/audio/espresso/mono_16000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 175.438375,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_24000",
+          "path": "data/audio/espresso/mono_24000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 175.438375,
+          "metadata_matches": true
+        }
+      ]
+    },
+    {
+      "id": "so_what",
+      "title": "Miles Davis \u2014 So What",
+      "files": [
+        {
+          "role": "download",
+          "path": "data/downloads/so_what/ylXk1LBvIqU.webm",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true
+        },
+        {
+          "role": "source",
+          "path": "data/audio/so_what/source.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 563.5715208333334,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_16000",
+          "path": "data/audio/so_what/mono_16000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 563.5715,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_24000",
+          "path": "data/audio/so_what/mono_24000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 563.5715416666667,
+          "metadata_matches": true
+        }
+      ]
+    },
+    {
+      "id": "fake_plastic_trees",
+      "title": "Radiohead \u2014 Fake Plastic Trees",
+      "files": [
+        {
+          "role": "download",
+          "path": "data/downloads/fake_plastic_trees/n5h0qHwNrHk.webm",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true
+        },
+        {
+          "role": "source",
+          "path": "data/audio/fake_plastic_trees/source.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 292.0722083333333,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_16000",
+          "path": "data/audio/fake_plastic_trees/mono_16000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 292.0721875,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_24000",
+          "path": "data/audio/fake_plastic_trees/mono_24000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 292.0722083333333,
+          "metadata_matches": true
+        }
+      ]
+    },
+    {
+      "id": "sometimes",
+      "title": "My Bloody Valentine \u2014 Sometimes",
+      "files": [
+        {
+          "role": "download",
+          "path": "data/downloads/sometimes/1J5H7DIqRQQ.webm",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true
+        },
+        {
+          "role": "source",
+          "path": "data/audio/sometimes/source.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 319.24,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_16000",
+          "path": "data/audio/sometimes/mono_16000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 319.24,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_24000",
+          "path": "data/audio/sometimes/mono_24000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 319.24,
+          "metadata_matches": true
+        }
+      ]
+    },
+    {
+      "id": "traffic",
+      "title": "Traffic noise",
+      "files": [
+        {
+          "role": "download",
+          "path": "data/downloads/traffic/GQhtuQP50hM.webm",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true
+        },
+        {
+          "role": "source",
+          "path": "data/audio/traffic/source.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 180.0,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_16000",
+          "path": "data/audio/traffic/mono_16000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 180.0,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_24000",
+          "path": "data/audio/traffic/mono_24000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 180.0,
+          "metadata_matches": true
+        }
+      ]
+    },
+    {
+      "id": "cage_speech",
+      "title": "John Cage \u2014 About silence",
+      "files": [
+        {
+          "role": "download",
+          "path": "data/downloads/cage_speech/USHRupVMvF0.webm",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true
+        },
+        {
+          "role": "source",
+          "path": "data/audio/cage_speech/source.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 257.6254166666667,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_16000",
+          "path": "data/audio/cage_speech/mono_16000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 257.6254375,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_24000",
+          "path": "data/audio/cage_speech/mono_24000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 257.6254166666667,
+          "metadata_matches": true
+        }
+      ]
+    },
+    {
+      "id": "obama_speech",
+      "title": "Barack Obama \u2014 2004 DNC keynote address",
+      "files": [
+        {
+          "role": "download",
+          "path": "data/downloads/obama_speech/eWynt87PaJ0.webm",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true
+        },
+        {
+          "role": "source",
+          "path": "data/audio/obama_speech/source.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 1127.7003333333334,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_16000",
+          "path": "data/audio/obama_speech/mono_16000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 1127.7003125,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_24000",
+          "path": "data/audio/obama_speech/mono_24000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 1127.7003333333334,
+          "metadata_matches": true
+        }
+      ]
+    },
+    {
+      "id": "bohemian_rhapsody",
+      "title": "Queen \u2014 Bohemian Rhapsody",
+      "files": [
+        {
+          "role": "download",
+          "path": "data/downloads/bohemian_rhapsody/XHrdsx8izBs.webm",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true
+        },
+        {
+          "role": "source",
+          "path": "data/audio/bohemian_rhapsody/source.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 353.6533333333333,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_16000",
+          "path": "data/audio/bohemian_rhapsody/mono_16000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 353.6533125,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_24000",
+          "path": "data/audio/bohemian_rhapsody/mono_24000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 353.6533333333333,
+          "metadata_matches": true
+        }
+      ]
+    },
+    {
+      "id": "blue_suede_shoes",
+      "title": "Elvis Presley \u2014 Blue Suede Shoes",
+      "files": [
+        {
+          "role": "download",
+          "path": "data/downloads/blue_suede_shoes/HeXnFx7aPOE.webm",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true
+        },
+        {
+          "role": "source",
+          "path": "data/audio/blue_suede_shoes/source.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 122.5549375,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_16000",
+          "path": "data/audio/blue_suede_shoes/mono_16000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 122.5549375,
+          "metadata_matches": true
+        },
+        {
+          "role": "mono_24000",
+          "path": "data/audio/blue_suede_shoes/mono_24000.flac",
+          "exists": true,
+          "hash_matches": true,
+          "size_matches": true,
+          "duration_seconds": 122.55495833333333,
+          "metadata_matches": true
+        }
+      ]
+    }
+  ]
+}

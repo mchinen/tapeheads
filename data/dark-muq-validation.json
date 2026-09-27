@@ -1,0 +1,56 @@
+{
+  "generator": "python -m tools.render_dark_studies",
+  "encoder": "muq",
+  "studies": {
+    "chirp_sequence": {
+      "layers": [
+        {
+          "heads": 16,
+          "queries": 800,
+          "playback_segments": 32,
+          "duration_seconds": 32.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 3
+        },
+        {
+          "heads": 16,
+          "queries": 800,
+          "playback_segments": 38,
+          "duration_seconds": 32.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 3
+        }
+      ],
+      "recursive_events": 319,
+      "quiet_return_paths": 3,
+      "duration_seconds": 32.0,
+      "peak": 0.12763024866580963,
+      "path_clock_violations": 0
+    },
+    "blue_suede_shoes_full": {
+      "layers": [
+        {
+          "heads": 16,
+          "queries": 3064,
+          "playback_segments": 83,
+          "duration_seconds": 122.55495833333333,
+          "guard_violations": 0,
+          "maximum_remote_voices": 3
+        },
+        {
+          "heads": 16,
+          "queries": 3064,
+          "playback_segments": 350,
+          "duration_seconds": 122.55495833333333,
+          "guard_violations": 0,
+          "maximum_remote_voices": 3
+        }
+      ],
+      "recursive_events": 2068,
+      "quiet_return_paths": 11,
+      "duration_seconds": 122.55495833333333,
+      "peak": 0.22854936122894287,
+      "path_clock_violations": 0
+    }
+  }
+}

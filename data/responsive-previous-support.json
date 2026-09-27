@@ -1,0 +1,33 @@
+{
+  "method": "playback_audit.support_statistics on native layer 1",
+  "studies": {
+    "espresso_muq": {
+      "trace": "outputs/espresso_muq_collection8/trace.json",
+      "scheduled_samples": 25263126,
+      "unselected_samples": 0,
+      "unsupported_samples": 12321003,
+      "unsupported_fraction": 0.4877069844800679
+    },
+    "bohemian_rhapsody_muq": {
+      "trace": "outputs/bohemian_rhapsody_muq_collection8/trace.json",
+      "scheduled_samples": 50926080,
+      "unselected_samples": 0,
+      "unsupported_samples": 21712320,
+      "unsupported_fraction": 0.42634972100738955
+    },
+    "espresso_wav2vec2": {
+      "trace": "outputs/espresso_wav2vec2_collection8/trace.json",
+      "scheduled_samples": 16840884,
+      "unselected_samples": 0,
+      "unsupported_samples": 8007040,
+      "unsupported_fraction": 0.4754524762476839
+    },
+    "bohemian_rhapsody_wav2vec2": {
+      "trace": "outputs/bohemian_rhapsody_wav2vec2_collection8/trace.json",
+      "scheduled_samples": 33949518,
+      "unselected_samples": 0,
+      "unsupported_samples": 16201972,
+      "unsupported_fraction": 0.47723717314631686
+    }
+  }
+}

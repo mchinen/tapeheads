@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Recursive tape path trace",
+  "type": "object",
+  "required": [
+    "format",
+    "source",
+    "encoder",
+    "layers",
+    "layer_assets",
+    "recursion",
+    "events",
+    "audio",
+    "rendering"
+  ],
+  "properties": {
+    "format": {
+      "const": "tapeheads/3"
+    },
+    "layers": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "layer_assets": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "branch",
+          "output_start",
+          "output_end",
+          "source_start",
+          "source_end",
+          "intermediate_start",
+          "gain",
+          "parent_head",
+          "parent_voice",
+          "parent_segment",
+          "parent_envelope",
+          "near_output"
+        ],
+        "properties": {
+          "branch": {
+            "enum": [
+              "direct",
+              "recursive"
+            ]
+          },
+          "gain": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "near_output": {
+            "type": "boolean"
+          },
+          "output_start": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "output_end": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "source_start": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "source_end": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "intermediate_start": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "branch": {
+                  "const": "recursive"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "child_head",
+                "child_voice",
+                "child_segment",
+                "child_envelope"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

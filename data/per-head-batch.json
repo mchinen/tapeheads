@@ -1,0 +1,385 @@
+{
+  "generator": "python -m tools.run_per_head_studies",
+  "code_sha256": "fcef7c443f637591c955de771f3952afcc590d6f38faaf274a45f2aadfb15012",
+  "jobs": [
+    {
+      "source": "chirp_sequence",
+      "input": "data/audio/chirp_sequence/mono_48000.wav",
+      "encoder": "wav2vec2",
+      "output": "outputs/chirp_sequence_wav2vec2_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790404787.6550028,
+      "exit_code": 0,
+      "finished_at_unix": 1790404864.9826117
+    },
+    {
+      "source": "chirp_sequence",
+      "input": "data/audio/chirp_sequence/mono_48000.wav",
+      "encoder": "muq",
+      "output": "outputs/chirp_sequence_muq_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790404864.98331,
+      "exit_code": 0,
+      "finished_at_unix": 1790404934.590629
+    },
+    {
+      "source": "espresso",
+      "input": "data/audio/espresso/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/espresso_wav2vec2_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790404934.5913062,
+      "exit_code": 0,
+      "finished_at_unix": 1790405593.4191122
+    },
+    {
+      "source": "espresso",
+      "input": "data/audio/espresso/source.flac",
+      "encoder": "muq",
+      "output": "outputs/espresso_muq_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790405593.4199011,
+      "exit_code": 0,
+      "finished_at_unix": 1790406109.9173617
+    },
+    {
+      "source": "bohemian_rhapsody",
+      "input": "data/audio/bohemian_rhapsody/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/bohemian_rhapsody_wav2vec2_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790406109.918137,
+      "exit_code": 0,
+      "finished_at_unix": 1790407687.455364
+    },
+    {
+      "source": "bohemian_rhapsody",
+      "input": "data/audio/bohemian_rhapsody/source.flac",
+      "encoder": "muq",
+      "output": "outputs/bohemian_rhapsody_muq_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790407687.456134,
+      "exit_code": 0,
+      "finished_at_unix": 1790408830.0947754
+    },
+    {
+      "source": "dodge_image",
+      "input": "data/audio/dodge_image/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/dodge_image_wav2vec2_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790408830.095471,
+      "exit_code": 0,
+      "finished_at_unix": 1790409240.7425826
+    },
+    {
+      "source": "dodge_image",
+      "input": "data/audio/dodge_image/source.flac",
+      "encoder": "muq",
+      "output": "outputs/dodge_image_muq_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790409240.7433782,
+      "exit_code": 0,
+      "finished_at_unix": 1790409564.6823978
+    },
+    {
+      "source": "blue_suede_shoes",
+      "input": "data/audio/blue_suede_shoes/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/blue_suede_shoes_wav2vec2_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790409564.6832964,
+      "exit_code": 0,
+      "finished_at_unix": 1790409984.7367184
+    },
+    {
+      "source": "blue_suede_shoes",
+      "input": "data/audio/blue_suede_shoes/source.flac",
+      "encoder": "muq",
+      "output": "outputs/blue_suede_shoes_muq_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790409984.7374938,
+      "exit_code": 0,
+      "finished_at_unix": 1790410332.8966324
+    },
+    {
+      "source": "forest_birds",
+      "input": "data/audio/forest_birds/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/forest_birds_wav2vec2_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790410332.8974166,
+      "exit_code": 0,
+      "finished_at_unix": 1790410368.12673
+    },
+    {
+      "source": "forest_birds",
+      "input": "data/audio/forest_birds/source.flac",
+      "encoder": "muq",
+      "output": "outputs/forest_birds_muq_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790410368.127504,
+      "exit_code": 0,
+      "finished_at_unix": 1790410405.9122772
+    },
+    {
+      "source": "chirp",
+      "input": "data/audio/chirp/mono_48000.wav",
+      "encoder": "wav2vec2",
+      "output": "outputs/chirp_wav2vec2_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790410405.913064,
+      "exit_code": 0,
+      "finished_at_unix": 1790410472.280104
+    },
+    {
+      "source": "chirp",
+      "input": "data/audio/chirp/mono_48000.wav",
+      "encoder": "muq",
+      "output": "outputs/chirp_muq_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790410472.280853,
+      "exit_code": 0,
+      "finished_at_unix": 1790410531.040873
+    },
+    {
+      "source": "gaussian_noise",
+      "input": "data/audio/gaussian_noise/mono_48000.wav",
+      "encoder": "wav2vec2",
+      "output": "outputs/gaussian_noise_wav2vec2_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790410531.041665,
+      "exit_code": 0,
+      "finished_at_unix": 1790410549.6190941
+    },
+    {
+      "source": "gaussian_noise",
+      "input": "data/audio/gaussian_noise/mono_48000.wav",
+      "encoder": "muq",
+      "output": "outputs/gaussian_noise_muq_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790410549.6198947,
+      "exit_code": 0,
+      "finished_at_unix": 1790410607.6249974
+    },
+    {
+      "source": "gaussian_pulse",
+      "input": "data/audio/gaussian_pulse/mono_48000.wav",
+      "encoder": "wav2vec2",
+      "output": "outputs/gaussian_pulse_wav2vec2_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790410607.62582,
+      "exit_code": 0,
+      "finished_at_unix": 1790410629.8826222
+    },
+    {
+      "source": "gaussian_pulse",
+      "input": "data/audio/gaussian_pulse/mono_48000.wav",
+      "encoder": "muq",
+      "output": "outputs/gaussian_pulse_muq_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790410629.883424,
+      "exit_code": 0,
+      "finished_at_unix": 1790410685.0018978
+    },
+    {
+      "source": "sine",
+      "input": "data/audio/sine/mono_48000.wav",
+      "encoder": "wav2vec2",
+      "output": "outputs/sine_wav2vec2_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790410685.002754,
+      "exit_code": 0,
+      "finished_at_unix": 1790410702.6577039
+    },
+    {
+      "source": "sine",
+      "input": "data/audio/sine/mono_48000.wav",
+      "encoder": "muq",
+      "output": "outputs/sine_muq_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790410702.658537,
+      "exit_code": 0,
+      "finished_at_unix": 1790410755.5243666
+    },
+    {
+      "source": "nature_montage",
+      "input": "data/audio/nature_montage/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/nature_montage_wav2vec2_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790410755.5254054,
+      "exit_code": 0,
+      "finished_at_unix": 1790410942.7278228
+    },
+    {
+      "source": "nature_montage",
+      "input": "data/audio/nature_montage/source.flac",
+      "encoder": "muq",
+      "output": "outputs/nature_montage_muq_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790410942.728592,
+      "exit_code": 0,
+      "finished_at_unix": 1790411097.067101
+    },
+    {
+      "source": "beach",
+      "input": "data/audio/beach/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/beach_wav2vec2_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790411097.067919,
+      "exit_code": 0,
+      "finished_at_unix": 1790411574.3276224
+    },
+    {
+      "source": "beach",
+      "input": "data/audio/beach/source.flac",
+      "encoder": "muq",
+      "output": "outputs/beach_muq_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790411574.3284543,
+      "exit_code": 0,
+      "finished_at_unix": 1790412049.906669
+    },
+    {
+      "source": "rain",
+      "input": "data/audio/rain/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/rain_wav2vec2_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790412049.9074965,
+      "exit_code": 0,
+      "finished_at_unix": 1790412221.7431026
+    },
+    {
+      "source": "rain",
+      "input": "data/audio/rain/source.flac",
+      "encoder": "muq",
+      "output": "outputs/rain_muq_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790412221.7439427,
+      "exit_code": 0,
+      "finished_at_unix": 1790412688.984966
+    },
+    {
+      "source": "traffic",
+      "input": "data/audio/traffic/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/traffic_wav2vec2_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790412688.9857252,
+      "exit_code": 0,
+      "finished_at_unix": 1790413294.516612
+    },
+    {
+      "source": "traffic",
+      "input": "data/audio/traffic/source.flac",
+      "encoder": "muq",
+      "output": "outputs/traffic_muq_perhead3",
+      "status": "complete",
+      "started_at_unix": 1790413294.5174797,
+      "exit_code": 0,
+      "finished_at_unix": 1790413759.0714693
+    },
+    {
+      "source": "cage_speech",
+      "input": "data/audio/cage_speech/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/cage_speech_wav2vec2_perhead3",
+      "status": "pending"
+    },
+    {
+      "source": "cage_speech",
+      "input": "data/audio/cage_speech/source.flac",
+      "encoder": "muq",
+      "output": "outputs/cage_speech_muq_perhead3",
+      "status": "pending"
+    },
+    {
+      "source": "chopin_nocturne",
+      "input": "data/audio/chopin_nocturne/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/chopin_nocturne_wav2vec2_perhead3",
+      "status": "pending"
+    },
+    {
+      "source": "chopin_nocturne",
+      "input": "data/audio/chopin_nocturne/source.flac",
+      "encoder": "muq",
+      "output": "outputs/chopin_nocturne_muq_perhead3",
+      "status": "pending"
+    },
+    {
+      "source": "fake_plastic_trees",
+      "input": "data/audio/fake_plastic_trees/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/fake_plastic_trees_wav2vec2_perhead3",
+      "status": "pending"
+    },
+    {
+      "source": "fake_plastic_trees",
+      "input": "data/audio/fake_plastic_trees/source.flac",
+      "encoder": "muq",
+      "output": "outputs/fake_plastic_trees_muq_perhead3",
+      "status": "pending"
+    },
+    {
+      "source": "sometimes",
+      "input": "data/audio/sometimes/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/sometimes_wav2vec2_perhead3",
+      "status": "pending"
+    },
+    {
+      "source": "sometimes",
+      "input": "data/audio/sometimes/source.flac",
+      "encoder": "muq",
+      "output": "outputs/sometimes_muq_perhead3",
+      "status": "pending"
+    },
+    {
+      "source": "so_what",
+      "input": "data/audio/so_what/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/so_what_wav2vec2_perhead3",
+      "status": "pending"
+    },
+    {
+      "source": "so_what",
+      "input": "data/audio/so_what/source.flac",
+      "encoder": "muq",
+      "output": "outputs/so_what_muq_perhead3",
+      "status": "pending"
+    },
+    {
+      "source": "bach_cello",
+      "input": "data/audio/bach_cello/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/bach_cello_wav2vec2_perhead3",
+      "status": "pending"
+    },
+    {
+      "source": "bach_cello",
+      "input": "data/audio/bach_cello/source.flac",
+      "encoder": "muq",
+      "output": "outputs/bach_cello_muq_perhead3",
+      "status": "pending"
+    },
+    {
+      "source": "obama_speech",
+      "input": "data/audio/obama_speech/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/obama_speech_wav2vec2_perhead3",
+      "status": "pending"
+    },
+    {
+      "source": "obama_speech",
+      "input": "data/audio/obama_speech/source.flac",
+      "encoder": "muq",
+      "output": "outputs/obama_speech_muq_perhead3",
+      "status": "pending"
+    }
+  ],
+  "status": "blocked: less than 2 GiB free"
+}

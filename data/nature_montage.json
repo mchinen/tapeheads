@@ -1,0 +1,137 @@
+{
+  "generator": "python -m tools.prepare_nature_study",
+  "sample_rate_hz": 24000,
+  "sections": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 14.654708333333334,
+      "label": "FOREST / BIRDS",
+      "confidence": "exact",
+      "components": [
+        {
+          "id": "forest_birds",
+          "input_start_seconds": 0,
+          "gain": 1.929070481397133,
+          "repeated": false
+        }
+      ]
+    },
+    {
+      "start_seconds": 14.654708333333334,
+      "end_seconds": 30.654708333333332,
+      "label": "RAIN",
+      "confidence": "exact",
+      "components": [
+        {
+          "id": "rain",
+          "input_start_seconds": 0,
+          "gain": 5.912197752017091,
+          "repeated": false
+        }
+      ]
+    },
+    {
+      "start_seconds": 30.654708333333332,
+      "end_seconds": 44.65470833333333,
+      "label": "BEACH / WAVES",
+      "confidence": "exact",
+      "components": [
+        {
+          "id": "beach",
+          "input_start_seconds": 0,
+          "gain": 1.630432683306444,
+          "repeated": false
+        }
+      ]
+    },
+    {
+      "start_seconds": 44.65470833333333,
+      "end_seconds": 46.65470833333333,
+      "label": "DTMF / BEEPS",
+      "confidence": "exact",
+      "components": [
+        {
+          "id": "chirp_sequence",
+          "input_start_seconds": 8,
+          "gain": 0.7799301322553667,
+          "repeated": false
+        }
+      ]
+    },
+    {
+      "start_seconds": 46.65470833333333,
+      "end_seconds": 49.65470833333333,
+      "label": "SYNTHETIC CHIRP",
+      "confidence": "exact",
+      "components": [
+        {
+          "id": "chirp_sequence",
+          "input_start_seconds": 10,
+          "gain": 0.4535731929717607,
+          "repeated": false
+        }
+      ]
+    },
+    {
+      "start_seconds": 49.65470833333333,
+      "end_seconds": 64.65470833333333,
+      "label": "COMBINED / NATURE + SIGNALS",
+      "confidence": "exact",
+      "components": [
+        {
+          "id": "forest_birds",
+          "input_start_seconds": 0,
+          "gain": 0.8680817166287099,
+          "repeated": true
+        },
+        {
+          "id": "rain",
+          "input_start_seconds": 0,
+          "gain": 1.3705360463957417,
+          "repeated": false
+        },
+        {
+          "id": "beach",
+          "input_start_seconds": 0,
+          "gain": 0.20165229827151443,
+          "repeated": false
+        },
+        {
+          "id": "chirp_sequence",
+          "input_start_seconds": 0,
+          "gain": 0.05857265382755229,
+          "repeated": false
+        }
+      ]
+    }
+  ],
+  "fade_samples": 120,
+  "normalization": "RMS 0.08; peak cap 0.6; mixture weights recorded",
+  "assets": {
+    "forest_birds": {
+      "path": "data/audio/forest_birds/source.flac",
+      "sha256": "c6fb465d97740c3ecf775a4531a4341cf2d84644ff938f124810e31bb8ba3473"
+    },
+    "rain": {
+      "path": "data/audio/rain/source.flac",
+      "sha256": "7bcf39acdf8eceb889d55d121cb8be68566ac3ba53c53cbea30ad5061b195a1c"
+    },
+    "beach": {
+      "path": "data/audio/beach/source.flac",
+      "sha256": "0509d00f78a346412043b23d5461f6b275c829dd912db617170752cb9c31c976"
+    },
+    "chirp_sequence": {
+      "path": "data/audio/chirp_sequence/mono_48000.wav",
+      "sha256": "cf3b39061a605df684abcecda21fdf3f2932043701297c94bd09ced89ca3f401"
+    }
+  },
+  "forest_credit": {
+    "author": "Barracuda1983",
+    "location": "Fontainebleau, France",
+    "license": "public domain dedication",
+    "page": "https://commons.wikimedia.org/wiki/File:Birds_forest.ogg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Birds_forest.ogg",
+    "download_sha256": "60d77abf548030e85abec22053a6392df91320718e26b93180f562b1bf7989ac"
+  },
+  "output_sha256": "ea1d9cbe97d7cb22c5146713af7bbe04a55de6a01d712ecb9b7fd3336f0998fd"
+}

@@ -1,0 +1,234 @@
+{
+  "generator": "python -m tools.validate_deep_examples",
+  "native_attention_errors": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "validation": {
+    "muq_depth8_verified": {
+      "layers": 8,
+      "native_checks": [
+        {
+          "heads": 16,
+          "queries": 100,
+          "playback_segments": 27,
+          "duration_seconds": 4.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 100,
+          "playback_segments": 34,
+          "duration_seconds": 4.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 100,
+          "playback_segments": 29,
+          "duration_seconds": 4.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 100,
+          "playback_segments": 32,
+          "duration_seconds": 4.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 100,
+          "playback_segments": 33,
+          "duration_seconds": 4.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 100,
+          "playback_segments": 36,
+          "duration_seconds": 4.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 100,
+          "playback_segments": 40,
+          "duration_seconds": 4.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 100,
+          "playback_segments": 32,
+          "duration_seconds": 4.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        }
+      ],
+      "duration_seconds": 4.0,
+      "reconstruction_max_error_bound": 1e-06,
+      "peak": 0.4327998161315918,
+      "annotations": 2
+    },
+    "chirp_sequence_muq_depth8": {
+      "layers": 8,
+      "native_checks": [
+        {
+          "heads": 16,
+          "queries": 800,
+          "playback_segments": 69,
+          "duration_seconds": 32.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 800,
+          "playback_segments": 101,
+          "duration_seconds": 32.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 800,
+          "playback_segments": 103,
+          "duration_seconds": 32.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 800,
+          "playback_segments": 68,
+          "duration_seconds": 32.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 800,
+          "playback_segments": 38,
+          "duration_seconds": 32.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 800,
+          "playback_segments": 73,
+          "duration_seconds": 32.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 800,
+          "playback_segments": 146,
+          "duration_seconds": 32.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 800,
+          "playback_segments": 30,
+          "duration_seconds": 32.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        }
+      ],
+      "duration_seconds": 32.0,
+      "reconstruction_max_error_bound": 1e-06,
+      "peak": 0.5702492594718933,
+      "annotations": 39
+    },
+    "blue_suede_shoes_full_muq_depth8": {
+      "layers": 8,
+      "native_checks": [
+        {
+          "heads": 16,
+          "queries": 3064,
+          "playback_segments": 190,
+          "duration_seconds": 122.55495833333333,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 3064,
+          "playback_segments": 1009,
+          "duration_seconds": 122.55495833333333,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 3064,
+          "playback_segments": 778,
+          "duration_seconds": 122.55495833333333,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 3064,
+          "playback_segments": 519,
+          "duration_seconds": 122.55495833333333,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 3064,
+          "playback_segments": 73,
+          "duration_seconds": 122.55495833333333,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 3064,
+          "playback_segments": 139,
+          "duration_seconds": 122.55495833333333,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 3064,
+          "playback_segments": 413,
+          "duration_seconds": 122.55495833333333,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        },
+        {
+          "heads": 16,
+          "queries": 3064,
+          "playback_segments": 71,
+          "duration_seconds": 122.55495833333333,
+          "guard_violations": 0,
+          "maximum_remote_voices": 6
+        }
+      ],
+      "duration_seconds": 122.55495833333333,
+      "reconstruction_max_error_bound": 1e-06,
+      "peak": 0.800000011920929,
+      "annotations": 8
+    }
+  }
+}

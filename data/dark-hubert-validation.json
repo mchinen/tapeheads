@@ -1,0 +1,56 @@
+{
+  "generator": "python -m tools.render_dark_studies",
+  "encoder": "hubert",
+  "studies": {
+    "chirp_sequence": {
+      "layers": [
+        {
+          "heads": 12,
+          "queries": 1599,
+          "playback_segments": 89,
+          "duration_seconds": 32.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 3
+        },
+        {
+          "heads": 12,
+          "queries": 1599,
+          "playback_segments": 37,
+          "duration_seconds": 32.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 3
+        }
+      ],
+      "recursive_events": 519,
+      "quiet_return_paths": 3,
+      "duration_seconds": 32.0,
+      "peak": 0.14513006806373596,
+      "path_clock_violations": 0
+    },
+    "blue_suede_shoes_full": {
+      "layers": [
+        {
+          "heads": 12,
+          "queries": 6127,
+          "playback_segments": 282,
+          "duration_seconds": 122.5549375,
+          "guard_violations": 0,
+          "maximum_remote_voices": 3
+        },
+        {
+          "heads": 12,
+          "queries": 6127,
+          "playback_segments": 274,
+          "duration_seconds": 122.5549375,
+          "guard_violations": 0,
+          "maximum_remote_voices": 3
+        }
+      ],
+      "recursive_events": 3160,
+      "quiet_return_paths": 164,
+      "duration_seconds": 122.5549375,
+      "peak": 0.16762447357177734,
+      "path_clock_violations": 0
+    }
+  }
+}

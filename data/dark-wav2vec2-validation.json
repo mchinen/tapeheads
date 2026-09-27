@@ -1,0 +1,56 @@
+{
+  "generator": "python -m tools.render_dark_studies",
+  "encoder": "wav2vec2",
+  "studies": {
+    "chirp_sequence": {
+      "layers": [
+        {
+          "heads": 12,
+          "queries": 1599,
+          "playback_segments": 72,
+          "duration_seconds": 32.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 3
+        },
+        {
+          "heads": 12,
+          "queries": 1599,
+          "playback_segments": 35,
+          "duration_seconds": 32.0,
+          "guard_violations": 0,
+          "maximum_remote_voices": 3
+        }
+      ],
+      "recursive_events": 446,
+      "quiet_return_paths": 3,
+      "duration_seconds": 32.0,
+      "peak": 0.1576348841190338,
+      "path_clock_violations": 0
+    },
+    "blue_suede_shoes_full": {
+      "layers": [
+        {
+          "heads": 12,
+          "queries": 6127,
+          "playback_segments": 408,
+          "duration_seconds": 122.5549375,
+          "guard_violations": 0,
+          "maximum_remote_voices": 3
+        },
+        {
+          "heads": 12,
+          "queries": 6127,
+          "playback_segments": 390,
+          "duration_seconds": 122.5549375,
+          "guard_violations": 0,
+          "maximum_remote_voices": 3
+        }
+      ],
+      "recursive_events": 3727,
+      "quiet_return_paths": 53,
+      "duration_seconds": 122.5549375,
+      "peak": 0.22488482296466827,
+      "path_clock_violations": 0
+    }
+  }
+}

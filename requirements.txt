@@ -1,0 +1,6 @@
+# Install CPU PyTorch first with tools/setup_analysis.sh.
+numpy==2.2.3
+transformers==4.49.0
+pillow==11.1.0
+soundfile==0.13.1
+jsonschema==4.23.0

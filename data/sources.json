@@ -1,0 +1,1395 @@
+{
+  "format": "tapeheads-sources/1",
+  "entries": [
+    {
+      "id": "dodge_image",
+      "title": "Charles Dodge — He Destroyed Her Image",
+      "kind": "music",
+      "query": "Charles Dodge He Destroyed Her Image",
+      "status": "ready",
+      "candidates": [
+        {
+          "id": "z1GznNpkqEU",
+          "title": "Charles Dodge: He Destroyed her image (1974)",
+          "url": "https://www.youtube.com/watch?v=z1GznNpkqEU",
+          "channel": "TheWelleszCompany",
+          "duration": 123
+        },
+        {
+          "id": "369JzPk0ACo",
+          "title": "Charles Dodge's \"He Destroyed Her Image\" ",
+          "url": "https://www.youtube.com/watch?v=369JzPk0ACo",
+          "channel": "MrDrSmithJr",
+          "duration": 126
+        },
+        {
+          "id": "v41VQFSvtmU",
+          "title": "Speech Songs: II. He Destroyed Her Image",
+          "url": "https://www.youtube.com/watch?v=v41VQFSvtmU",
+          "channel": "Charles Dodge - Topic",
+          "duration": 123
+        },
+        {
+          "id": "GHgK8ZeWmKY",
+          "title": ".........He Destroyed Her Image",
+          "url": "https://www.youtube.com/watch?v=GHgK8ZeWmKY",
+          "channel": "Charles Dodge - Topic",
+          "duration": 126
+        },
+        {
+          "id": "LFSO4yh1EV0",
+          "title": "Speech Songs (excerpt No. 2, He Destroyed Her Image)",
+          "url": "https://www.youtube.com/watch?v=LFSO4yh1EV0",
+          "channel": "Charles Dodge - Topic",
+          "duration": 126
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=v41VQFSvtmU",
+      "selection_note": "Selected from title, uploader, and duration metadata; audio audition pending.",
+      "recording": {
+        "id": "v41VQFSvtmU",
+        "title": "Speech Songs: II. He Destroyed Her Image",
+        "channel": "Charles Dodge - Topic",
+        "channel_url": "https://www.youtube.com/channel/UCSDgw9rmvuiq6EYozzVmmwg",
+        "webpage_url": "https://www.youtube.com/watch?v=v41VQFSvtmU",
+        "duration": 123,
+        "upload_date": "20220819",
+        "license": null,
+        "format_id": "251",
+        "acodec": "opus",
+        "abr": 107.479
+      },
+      "files": {
+        "download": {
+          "path": "data/downloads/dodge_image/v41VQFSvtmU.webm",
+          "sha256": "ea8a692495e0df216acd6fa3fc3c58049047cc1bd782151c3e6180a750a9cd1d",
+          "bytes": 1647937,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 122.661
+        },
+        "source": {
+          "path": "data/audio/dodge_image/source.flac",
+          "sha256": "3faa0f0da2d3459adab247eb55f8de1067a3f70d433034b8c6bd7fb267dfcb12",
+          "bytes": 14911433,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 122.64
+        },
+        "mono_16000": {
+          "path": "data/audio/dodge_image/mono_16000.flac",
+          "sha256": "739df6815677e411a94da12a520d4ca481b5e3144725ef6dea5d3f94bba761ca",
+          "bytes": 3478519,
+          "sample_rate_hz": 16000,
+          "channels": 1,
+          "duration_seconds": 122.64
+        },
+        "mono_24000": {
+          "path": "data/audio/dodge_image/mono_24000.flac",
+          "sha256": "10bb434041651921cae0adb76bb8a17ad058a52007046162021b4972eade37e2",
+          "bytes": 4921728,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "duration_seconds": 122.64
+        }
+      },
+      "processing": {
+        "normalization": "none",
+        "resampling": "ffmpeg default resampler",
+        "downmix": "ffmpeg default mono channel mapping",
+        "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "yt_dlp_version": "2026.08.19",
+        "prepared_at": "2026-09-18T11:26:48.234286+00:00"
+      }
+    },
+    {
+      "id": "beach",
+      "title": "Beach waves",
+      "kind": "environment",
+      "query": "ocean beach waves field recording no music",
+      "status": "ready",
+      "excerpt": {
+        "start_seconds": 0,
+        "duration_seconds": 180
+      },
+      "candidates": [
+        {
+          "id": "mLYRUI03S7I",
+          "title": "Relaxing Ocean Waves. No Loop, Real Time & Real Sounds for your deep sleep [4K UHD]",
+          "url": "https://www.youtube.com/watch?v=mLYRUI03S7I",
+          "channel": "Peace Be With You",
+          "duration": 7525
+        },
+        {
+          "id": "gEQLKmQ5uss",
+          "title": "Gentle Waves on a Small White Rock Beach - Relaxing Ocean Sounds",
+          "url": "https://www.youtube.com/watch?v=gEQLKmQ5uss",
+          "channel": "Naturaleza Viva - Ocean Sounds For Sleeping",
+          "duration": 29066
+        },
+        {
+          "id": "zmPzbZVUp3g",
+          "title": "Relaxing 3 Hour Video of California Ocean Waves",
+          "url": "https://www.youtube.com/watch?v=zmPzbZVUp3g",
+          "channel": "MoneySavingVideos",
+          "duration": 10755
+        },
+        {
+          "id": "KuVKRIz7qOE",
+          "title": "Ocean Waves Crashing at Stormy Beach w/ Sea Rain | Relaxing Sounds for Sleep & Tinnitus: Brown Noise",
+          "url": "https://www.youtube.com/watch?v=KuVKRIz7qOE",
+          "channel": "Stardust Vibes - Relaxing Sounds",
+          "duration": 36001
+        },
+        {
+          "id": "wbcTxUaO3Oc",
+          "title": "Waves Rolling Ashore, Deep Sleeping On A Calm Night - Listen At Low Volume",
+          "url": "https://www.youtube.com/watch?v=wbcTxUaO3Oc",
+          "channel": "Naturaleza Viva - Ocean Sounds For Sleeping",
+          "duration": 39908
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=mLYRUI03S7I",
+      "selection_note": "Selected from title, uploader, and duration metadata; audio audition pending.",
+      "recording": {
+        "id": "mLYRUI03S7I",
+        "title": "Relaxing Ocean Waves. No Loop, Real Time & Real Sounds for your deep sleep [4K UHD]",
+        "channel": "Peace Be With You",
+        "channel_url": "https://www.youtube.com/channel/UCZdemBQKILhVjegPgV_oydg",
+        "webpage_url": "https://www.youtube.com/watch?v=mLYRUI03S7I",
+        "duration": 7525,
+        "upload_date": "20220721",
+        "license": null,
+        "format_id": "251",
+        "acodec": "opus",
+        "abr": 98.582
+      },
+      "files": {
+        "download": {
+          "path": "data/downloads/beach/mLYRUI03S7I.webm",
+          "sha256": "ca0c13c61276b13232a0b8d628c5272a361df538444895a71e283fb796bbb233",
+          "bytes": 2249669,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 180.021
+        },
+        "source": {
+          "path": "data/audio/beach/source.flac",
+          "sha256": "0509d00f78a346412043b23d5461f6b275c829dd912db617170752cb9c31c976",
+          "bytes": 24993242,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 180.0
+        },
+        "mono_16000": {
+          "path": "data/audio/beach/mono_16000.flac",
+          "sha256": "5489a5642fe5da029945dffdc8ddf20e6b5255ecf8d80024080b0eed43c10c11",
+          "bytes": 6920162,
+          "sample_rate_hz": 16000,
+          "channels": 1,
+          "duration_seconds": 180.0
+        },
+        "mono_24000": {
+          "path": "data/audio/beach/mono_24000.flac",
+          "sha256": "677b2860da7fa1115c17a98d52a897dc9ae05105dd8a551fbb2019dd63961876",
+          "bytes": 9827708,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "duration_seconds": 180.0
+        }
+      },
+      "processing": {
+        "normalization": "none",
+        "resampling": "ffmpeg default resampler",
+        "downmix": "ffmpeg default mono channel mapping",
+        "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "yt_dlp_version": "2026.08.19",
+        "prepared_at": "2026-09-18T11:28:36.953607+00:00"
+      }
+    },
+    {
+      "id": "rain",
+      "title": "Rain",
+      "kind": "environment",
+      "query": "rain field recording no music no thunder",
+      "status": "ready",
+      "excerpt": {
+        "start_seconds": 0,
+        "duration_seconds": 180
+      },
+      "candidates": [
+        {
+          "id": "fFZbjhL5RyA",
+          "title": "15 MINUTES Rain Sounds no music or thunder, Light Rain for Sleep, Relaxing, Meditate, Study, Yoga",
+          "url": "https://www.youtube.com/watch?v=fFZbjhL5RyA",
+          "channel": "Relaxation Songs",
+          "duration": 902
+        },
+        {
+          "id": "xjdBbgTJ5Hg",
+          "title": "Jungle Rain Sounds 24/7 🌿 | Pure Tropical ASMR No Music",
+          "url": "https://www.youtube.com/watch?v=xjdBbgTJ5Hg",
+          "channel": "Haven 🌱 ",
+          "duration": null
+        },
+        {
+          "id": "RqLcg9qaTtA",
+          "title": "Steady Rain in the Trenches | 6 Hours, No Music, No Thunder",
+          "url": "https://www.youtube.com/watch?v=RqLcg9qaTtA",
+          "channel": "Rainy Haven",
+          "duration": 21574
+        },
+        {
+          "id": "x2DUx_HiY94",
+          "title": "Real Rain, No Thunder — 3 Hours, Black Screen, No Ads (Not AI)",
+          "url": "https://www.youtube.com/watch?v=x2DUx_HiY94",
+          "channel": "Hushful Harmony",
+          "duration": 10800
+        },
+        {
+          "id": "rR5vmKf1pQg",
+          "title": "[No Ads] Sound of Rain and Thunder - 1 Hour Relaxing Sound for Sleep",
+          "url": "https://www.youtube.com/watch?v=rR5vmKf1pQg",
+          "channel": "Van Tech Corner",
+          "duration": 3938
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=fFZbjhL5RyA",
+      "selection_note": "Selected from title, uploader, and duration metadata; audio audition pending.",
+      "recording": {
+        "id": "fFZbjhL5RyA",
+        "title": "15 MINUTES Rain Sounds no music or thunder, Light Rain for Sleep, Relaxing, Meditate, Study, Yoga",
+        "channel": "Relaxation Songs",
+        "channel_url": "https://www.youtube.com/channel/UCqJSFSKU7dQUxzv5F8JGBmw",
+        "webpage_url": "https://www.youtube.com/watch?v=fFZbjhL5RyA",
+        "duration": 902,
+        "upload_date": "20221022",
+        "license": null,
+        "format_id": "251",
+        "acodec": "opus",
+        "abr": 120.513
+      },
+      "files": {
+        "download": {
+          "path": "data/downloads/rain/fFZbjhL5RyA.webm",
+          "sha256": "f2c60f0cdaca44ba1ba440eeec71b19d453c9b1464be752791c7b2dfd5609b59",
+          "bytes": 2712917,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 180.021
+        },
+        "source": {
+          "path": "data/audio/rain/source.flac",
+          "sha256": "7bcf39acdf8eceb889d55d121cb8be68566ac3ba53c53cbea30ad5061b195a1c",
+          "bytes": 33885025,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 180.0
+        },
+        "mono_16000": {
+          "path": "data/audio/rain/mono_16000.flac",
+          "sha256": "c823cda040b866dc2dbc6b46925b7b8542f19d593c901b1cfbede990e6466ec0",
+          "bytes": 6530987,
+          "sample_rate_hz": 16000,
+          "channels": 1,
+          "duration_seconds": 180.0
+        },
+        "mono_24000": {
+          "path": "data/audio/rain/mono_24000.flac",
+          "sha256": "983a8ac5e258bed10d690eaa458988b6a1954453cfb63de434adc653e703fc3c",
+          "bytes": 9678701,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "duration_seconds": 180.0
+        }
+      },
+      "processing": {
+        "normalization": "none",
+        "resampling": "ffmpeg default resampler",
+        "downmix": "ffmpeg default mono channel mapping",
+        "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "yt_dlp_version": "2026.08.19",
+        "prepared_at": "2026-09-18T11:30:18.374971+00:00"
+      }
+    },
+    {
+      "id": "bach_cello",
+      "title": "Bach — Cello Suite No. 1 in G major, BWV 1007",
+      "kind": "music",
+      "query": "Bach cello suite 1 BWV 1007 complete Netherlands Bach Society",
+      "status": "ready",
+      "candidates": [
+        {
+          "id": "cGnZHIY_hoQ",
+          "title": "Bach - Cello Suite no. 1 in G major BWV 1007 - Swarts | Netherlands Bach Society",
+          "url": "https://www.youtube.com/watch?v=cGnZHIY_hoQ",
+          "channel": "Netherlands Bach Society",
+          "duration": 1034
+        },
+        {
+          "id": "eNrFy2rhoZA",
+          "title": "Bach - Prelude from Cello Suite no. 1 BWV 1007 | Netherlands Bach Society",
+          "url": "https://www.youtube.com/watch?v=eNrFy2rhoZA",
+          "channel": "Netherlands Bach Society",
+          "duration": 174
+        },
+        {
+          "id": "y8cfC-O-bZA",
+          "title": "Swarts on Bach Cello Suite no. 1 in G major (music) BWV 1007 | Netherlands Bach Society",
+          "url": "https://www.youtube.com/watch?v=y8cfC-O-bZA",
+          "channel": "Netherlands Bach Society",
+          "duration": 442
+        },
+        {
+          "id": "CbONHocuCYM",
+          "title": "Swarts on Bach Cello Suite no. 1 in G major (manuscript) BWV 1007 | Netherlands Bach Society",
+          "url": "https://www.youtube.com/watch?v=CbONHocuCYM",
+          "channel": "Netherlands Bach Society",
+          "duration": 211
+        },
+        {
+          "id": "Nu9MDqGhIak",
+          "title": "Yo Yo Ma - Bach Six Cello Suites - BBC Proms 2015",
+          "url": "https://www.youtube.com/watch?v=Nu9MDqGhIak",
+          "channel": "Abraham Wu",
+          "duration": 9758
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=cGnZHIY_hoQ",
+      "selection_note": "Selected from title, uploader, and duration metadata; audio audition pending.",
+      "recording": {
+        "id": "cGnZHIY_hoQ",
+        "title": "Bach - Cello Suite no. 1 in G major BWV 1007 - Swarts | Netherlands Bach Society",
+        "channel": "Netherlands Bach Society",
+        "channel_url": "https://www.youtube.com/channel/UC2kF6qdHRTM_hDYfEmzkS9w",
+        "webpage_url": "https://www.youtube.com/watch?v=cGnZHIY_hoQ",
+        "duration": 1034,
+        "upload_date": "20180927",
+        "license": null,
+        "format_id": "251",
+        "acodec": "opus",
+        "abr": 136.58
+      },
+      "files": {
+        "download": {
+          "path": "data/downloads/bach_cello/cGnZHIY_hoQ.webm",
+          "sha256": "965598b13c9f72d9c32f8936417889846cc1262f193ac7dd09d0bd915d983e43",
+          "bytes": 17644536,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 1033.501
+        },
+        "source": {
+          "path": "data/audio/bach_cello/source.flac",
+          "sha256": "c896588325d5f9469c3fd46c46485428cb62de2cf621ec678b140549775f4633",
+          "bytes": 178304716,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 1033.485354
+        },
+        "mono_16000": {
+          "path": "data/audio/bach_cello/mono_16000.flac",
+          "sha256": "04f4e2f26d48b88eef72cb5b143753e9b5b80bca68f1baef60e9093c49500340",
+          "bytes": 35229058,
+          "sample_rate_hz": 16000,
+          "channels": 1,
+          "duration_seconds": 1033.485375
+        },
+        "mono_24000": {
+          "path": "data/audio/bach_cello/mono_24000.flac",
+          "sha256": "3b6c670bf7b8e81fd65f70a8670d18e7b5141a79ff8c9f4a65d13d755674a4e0",
+          "bytes": 50056787,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "duration_seconds": 1033.485375
+        }
+      },
+      "processing": {
+        "normalization": "none",
+        "resampling": "ffmpeg default resampler",
+        "downmix": "ffmpeg default mono channel mapping",
+        "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "yt_dlp_version": "2026.08.19",
+        "prepared_at": "2026-09-18T11:30:39.884214+00:00"
+      }
+    },
+    {
+      "id": "chopin_nocturne",
+      "title": "Chopin — Nocturne in E-flat major, Op. 9 No. 2",
+      "kind": "music",
+      "query": "Chopin Nocturne op 9 no 2 E flat major piano official",
+      "status": "ready",
+      "candidates": [
+        {
+          "id": "p29JUpsOSTE",
+          "title": "Chopin - Nocturne in E Flat Major (Op. 9 No. 2)",
+          "url": "https://www.youtube.com/watch?v=p29JUpsOSTE",
+          "channel": "Rousseau",
+          "duration": 297
+        },
+        {
+          "id": "EvNsPyp5O2I",
+          "title": "Lang Lang - Chopin: Nocturne No. 2 in E-Flat Major, Op. 9 No. 2",
+          "url": "https://www.youtube.com/watch?v=EvNsPyp5O2I",
+          "channel": "Lang Lang",
+          "duration": 283
+        },
+        {
+          "id": "-PaYq5Pt228",
+          "title": "Chopin – Nocturne Op. 9 No. 2 | The Original 265M-View Recording",
+          "url": "https://www.youtube.com/watch?v=-PaYq5Pt228",
+          "channel": "Vadim Chaimovich",
+          "duration": 268
+        },
+        {
+          "id": "9E6b3swbnWg",
+          "title": "Chopin - Nocturne op.9 No.2",
+          "url": "https://www.youtube.com/watch?v=9E6b3swbnWg",
+          "channel": "andrea romano",
+          "duration": 270
+        },
+        {
+          "id": "QR10Od1cLaM",
+          "title": "Seong-Jin Cho – Chopin: Nocturnes, Op. 9: No. 2 in E Flat Major. Andante",
+          "url": "https://www.youtube.com/watch?v=QR10Od1cLaM",
+          "channel": "Deutsche Grammophon - DG",
+          "duration": 264
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=QR10Od1cLaM",
+      "selection_note": "Selected from title, uploader, and duration metadata; audio audition pending.",
+      "recording": {
+        "id": "QR10Od1cLaM",
+        "title": "Seong-Jin Cho – Chopin: Nocturnes, Op. 9: No. 2 in E Flat Major. Andante",
+        "channel": "Deutsche Grammophon - DG",
+        "channel_url": "https://www.youtube.com/channel/UC34DbNyD_0t8tnOc5V38Big",
+        "webpage_url": "https://www.youtube.com/watch?v=QR10Od1cLaM",
+        "duration": 264,
+        "upload_date": "20210911",
+        "license": null,
+        "format_id": "251",
+        "acodec": "opus",
+        "abr": 142.447
+      },
+      "files": {
+        "download": {
+          "path": "data/downloads/chopin_nocturne/QR10Od1cLaM.webm",
+          "sha256": "661de2c87ab9197657d315a006f61c7d66557b9367bb0a274b6e741c9a0d583f",
+          "bytes": 4697585,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 263.821
+        },
+        "source": {
+          "path": "data/audio/chopin_nocturne/source.flac",
+          "sha256": "9a100c9ac7e6c3960b942a28c517184af2248b9c55bbfd3f1c979af3ce8bd857",
+          "bytes": 37050219,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 263.801917
+        },
+        "mono_16000": {
+          "path": "data/audio/chopin_nocturne/mono_16000.flac",
+          "sha256": "69e4529508c9f01f23b20ecc25d264a17d35787c44ace8f11398afab77b94d2f",
+          "bytes": 6840608,
+          "sample_rate_hz": 16000,
+          "channels": 1,
+          "duration_seconds": 263.801938
+        },
+        "mono_24000": {
+          "path": "data/audio/chopin_nocturne/mono_24000.flac",
+          "sha256": "a5190692c719392e40c7a92528c22bfeaae83b095fcfcb30b10d90d1ee4720b5",
+          "bytes": 9560299,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "duration_seconds": 263.801917
+        }
+      },
+      "processing": {
+        "normalization": "none",
+        "resampling": "ffmpeg default resampler",
+        "downmix": "ffmpeg default mono channel mapping",
+        "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "yt_dlp_version": "2026.08.19",
+        "prepared_at": "2026-09-18T11:30:54.833789+00:00"
+      }
+    },
+    {
+      "id": "espresso",
+      "title": "Sabrina Carpenter — Espresso",
+      "kind": "music",
+      "query": "Sabrina Carpenter Espresso official audio",
+      "status": "ready",
+      "candidates": [
+        {
+          "id": "51zjlMhdSTE",
+          "title": "Sabrina Carpenter - Espresso (Official Audio)",
+          "url": "https://www.youtube.com/watch?v=51zjlMhdSTE",
+          "channel": "Sabrina Carpenter",
+          "duration": 176
+        },
+        {
+          "id": "eVli-tstM5E",
+          "title": "Sabrina Carpenter - Espresso",
+          "url": "https://www.youtube.com/watch?v=eVli-tstM5E",
+          "channel": "Sabrina Carpenter",
+          "duration": 201
+        },
+        {
+          "id": "aB86Ub8dubQ",
+          "title": "Espresso",
+          "url": "https://www.youtube.com/watch?v=aB86Ub8dubQ",
+          "channel": "Sabrina Carpenter",
+          "duration": 176
+        },
+        {
+          "id": "4h0a1NCeC14",
+          "title": "Sabrina Carpenter - Espresso",
+          "url": "https://www.youtube.com/watch?v=4h0a1NCeC14",
+          "channel": "LatinHype",
+          "duration": 176
+        },
+        {
+          "id": "DKB-1EV5qHw",
+          "title": "Sabrina Carpenter - Espresso (Espressooooo Version) [Official Audio]",
+          "url": "https://www.youtube.com/watch?v=DKB-1EV5qHw",
+          "channel": "Sabrina Carpenter",
+          "duration": 296
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=51zjlMhdSTE",
+      "selection_note": "Selected from title, uploader, and duration metadata; audio audition pending.",
+      "recording": {
+        "id": "51zjlMhdSTE",
+        "title": "Sabrina Carpenter - Espresso (Official Audio)",
+        "channel": "Sabrina Carpenter",
+        "channel_url": "https://www.youtube.com/channel/UCPKWE1H6xhxwPlqUlKgHb_w",
+        "webpage_url": "https://www.youtube.com/watch?v=51zjlMhdSTE",
+        "duration": 175,
+        "upload_date": "20240412",
+        "license": null,
+        "format_id": "251",
+        "acodec": "opus",
+        "abr": 127.836
+      },
+      "files": {
+        "download": {
+          "path": "data/downloads/espresso/51zjlMhdSTE.webm",
+          "sha256": "5d62b3470d56fc28c25f3abe3491335f9b5a80c8a77ea01175eeb43a200cb67b",
+          "bytes": 2803782,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 175.461
+        },
+        "source": {
+          "path": "data/audio/espresso/source.flac",
+          "sha256": "baa52e60df453855cee5ab0962c019a3d9929e1f0199dd9a6a13a536106a01d9",
+          "bytes": 39205530,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 175.438375
+        },
+        "mono_16000": {
+          "path": "data/audio/espresso/mono_16000.flac",
+          "sha256": "97b6b13eefd30b2783df932f61e1c74931bebcebf8a669b4c09168e9a49c3e65",
+          "bytes": 7372635,
+          "sample_rate_hz": 16000,
+          "channels": 1,
+          "duration_seconds": 175.438375
+        },
+        "mono_24000": {
+          "path": "data/audio/espresso/mono_24000.flac",
+          "sha256": "690169e13f2b992c50ad256c4fdf664e01aeac336fabe9dca06b1cb7bc7092b6",
+          "bytes": 10997332,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "duration_seconds": 175.438375
+        }
+      },
+      "processing": {
+        "normalization": "none",
+        "resampling": "ffmpeg default resampler",
+        "downmix": "ffmpeg default mono channel mapping",
+        "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "yt_dlp_version": "2026.08.19",
+        "prepared_at": "2026-09-18T11:31:10.536185+00:00"
+      }
+    },
+    {
+      "id": "so_what",
+      "title": "Miles Davis — So What",
+      "kind": "music",
+      "query": "Miles Davis So What Kind of Blue official audio",
+      "status": "ready",
+      "candidates": [
+        {
+          "id": "ylXk1LBvIqU",
+          "title": "Miles Davis - So What (Audio) (Official Audio)",
+          "url": "https://www.youtube.com/watch?v=ylXk1LBvIqU",
+          "channel": "Miles Davis",
+          "duration": 564
+        },
+        {
+          "id": "zqNTltOGh5c",
+          "title": "Miles Davis - So What (Official Video)",
+          "url": "https://www.youtube.com/watch?v=zqNTltOGh5c",
+          "channel": "Miles Davis",
+          "duration": 547
+        },
+        {
+          "id": "TLDflhhdPCg",
+          "title": "Miles Davis - Blue In Green (Official Audio)",
+          "url": "https://www.youtube.com/watch?v=TLDflhhdPCg",
+          "channel": "Miles Davis",
+          "duration": 339
+        },
+        {
+          "id": "vDqULFUg6CY",
+          "title": "M I L E S D A V I S - Kind Of Blue - Full Album",
+          "url": "https://www.youtube.com/watch?v=vDqULFUg6CY",
+          "channel": "Jazz Night",
+          "duration": 4685
+        },
+        {
+          "id": "-488UORrfJ0",
+          "title": "Miles Davis - All Blues (Audio) (Official Audio)",
+          "url": "https://www.youtube.com/watch?v=-488UORrfJ0",
+          "channel": "Miles Davis",
+          "duration": 694
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=ylXk1LBvIqU",
+      "selection_note": "Selected from title, uploader, and duration metadata; audio audition pending.",
+      "recording": {
+        "id": "ylXk1LBvIqU",
+        "title": "Miles Davis - So What (Audio) (Official Audio)",
+        "channel": "Miles Davis",
+        "channel_url": "https://www.youtube.com/channel/UC9NlE_veniVpnvpIegfifMQ",
+        "webpage_url": "https://www.youtube.com/watch?v=ylXk1LBvIqU",
+        "duration": 564,
+        "upload_date": "20130514",
+        "license": null,
+        "format_id": "251",
+        "acodec": "opus",
+        "abr": 140.7
+      },
+      "files": {
+        "download": {
+          "path": "data/downloads/so_what/ylXk1LBvIqU.webm",
+          "sha256": "92d794bd4c91c72361347288ecf6931f9e6dea3d2e3ddecf88b3d6e29378ad04",
+          "bytes": 9911982,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 563.581
+        },
+        "source": {
+          "path": "data/audio/so_what/source.flac",
+          "sha256": "9cd907171fbd266120618d967ca0c46d835e7c337b4d1c38e712dd3f5ebdc02f",
+          "bytes": 102552787,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 563.571521
+        },
+        "mono_16000": {
+          "path": "data/audio/so_what/mono_16000.flac",
+          "sha256": "0a99eae2b91b48a1dfd60335cc44c9c5ba333dea72f53543710449ce5378bf71",
+          "bytes": 20434239,
+          "sample_rate_hz": 16000,
+          "channels": 1,
+          "duration_seconds": 563.5715
+        },
+        "mono_24000": {
+          "path": "data/audio/so_what/mono_24000.flac",
+          "sha256": "dd01add379d2aab41f6ec776f631323da47ad22da235dc0aee277767193e499d",
+          "bytes": 30143624,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "duration_seconds": 563.571542
+        }
+      },
+      "processing": {
+        "normalization": "none",
+        "resampling": "ffmpeg default resampler",
+        "downmix": "ffmpeg default mono channel mapping",
+        "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "yt_dlp_version": "2026.08.19",
+        "prepared_at": "2026-09-18T11:31:27.155173+00:00"
+      }
+    },
+    {
+      "id": "fake_plastic_trees",
+      "title": "Radiohead — Fake Plastic Trees",
+      "kind": "music",
+      "query": "Radiohead Fake Plastic Trees official audio",
+      "status": "ready",
+      "candidates": [
+        {
+          "id": "TsvL2poCHug",
+          "title": "Radiohead - Fake Plastic Trees [HQ]",
+          "url": "https://www.youtube.com/watch?v=TsvL2poCHug",
+          "channel": "SalvaMuñox",
+          "duration": 291
+        },
+        {
+          "id": "n5h0qHwNrHk",
+          "title": "Radiohead - Fake Plastic Trees",
+          "url": "https://www.youtube.com/watch?v=n5h0qHwNrHk",
+          "channel": "Radiohead",
+          "duration": 293
+        },
+        {
+          "id": "R2k8HC0A-Zg",
+          "title": "Fake Plastic Trees (2 Meter Session)",
+          "url": "https://www.youtube.com/watch?v=R2k8HC0A-Zg",
+          "channel": "Radiohead",
+          "duration": 276
+        },
+        {
+          "id": "kUES93pp7D8",
+          "title": "Radiohead - Fake Plastic Trees [HD]",
+          "url": "https://www.youtube.com/watch?v=kUES93pp7D8",
+          "channel": "ExoArchive",
+          "duration": 292
+        },
+        {
+          "id": "e2VKbqv2s3k",
+          "title": "Radiohead - Fake Plastic Trees (2023 Unofficial Remaster)",
+          "url": "https://www.youtube.com/watch?v=e2VKbqv2s3k",
+          "channel": "Rema Sters",
+          "duration": 291
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=n5h0qHwNrHk",
+      "selection_note": "Selected from title, uploader, and duration metadata; audio audition pending.",
+      "recording": {
+        "id": "n5h0qHwNrHk",
+        "title": "Radiohead - Fake Plastic Trees",
+        "channel": "Radiohead",
+        "channel_url": "https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA",
+        "webpage_url": "https://www.youtube.com/watch?v=n5h0qHwNrHk",
+        "duration": 292,
+        "upload_date": "20150123",
+        "license": null,
+        "format_id": "251",
+        "acodec": "opus",
+        "abr": 139.527
+      },
+      "files": {
+        "download": {
+          "path": "data/downloads/fake_plastic_trees/n5h0qHwNrHk.webm",
+          "sha256": "cb1c0b6c54ed1b7fce8c945f16c468245f90d9fa5df374cb7ba8a5031a1abedf",
+          "bytes": 5094176,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 292.081
+        },
+        "source": {
+          "path": "data/audio/fake_plastic_trees/source.flac",
+          "sha256": "5be54bff5c116c8fd42342a3be1ae7aef6ef23273139f2c0f5aaa244b9332070",
+          "bytes": 55215932,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 292.072208
+        },
+        "mono_16000": {
+          "path": "data/audio/fake_plastic_trees/mono_16000.flac",
+          "sha256": "02e195ef09d57a6745767b4b626eec5f0fd1f3d072140677dda3bdb65adf7207",
+          "bytes": 10628808,
+          "sample_rate_hz": 16000,
+          "channels": 1,
+          "duration_seconds": 292.072188
+        },
+        "mono_24000": {
+          "path": "data/audio/fake_plastic_trees/mono_24000.flac",
+          "sha256": "8e346c7f131793450110ccacbefdc2b400f4777fc776f20ebe39607b3640249e",
+          "bytes": 15628838,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "duration_seconds": 292.072208
+        }
+      },
+      "processing": {
+        "normalization": "none",
+        "resampling": "ffmpeg default resampler",
+        "downmix": "ffmpeg default mono channel mapping",
+        "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "yt_dlp_version": "2026.08.19",
+        "prepared_at": "2026-09-18T11:31:42.067377+00:00"
+      }
+    },
+    {
+      "id": "sometimes",
+      "title": "My Bloody Valentine — Sometimes",
+      "kind": "music",
+      "query": "My Bloody Valentine Sometimes Lost In Translation",
+      "status": "ready",
+      "url": "https://www.youtube.com/watch?v=1J5H7DIqRQQ",
+      "selection_note": "Selected from title, uploader, and duration metadata; audio audition pending.",
+      "recording": {
+        "id": "1J5H7DIqRQQ",
+        "title": "Sometimes",
+        "channel": "my bloody valentine",
+        "channel_url": "https://www.youtube.com/channel/UCuoGeza7Dl9Ni_hmeLTPdkg",
+        "webpage_url": "https://www.youtube.com/watch?v=1J5H7DIqRQQ",
+        "duration": 319,
+        "upload_date": "20260226",
+        "license": null,
+        "format_id": "251",
+        "acodec": "opus",
+        "abr": 129.056
+      },
+      "files": {
+        "download": {
+          "path": "data/downloads/sometimes/1J5H7DIqRQQ.webm",
+          "sha256": "fa4063cd079d3073b48a88f46e15df3927855cf84ba908040709a94e79042ba0",
+          "bytes": 5150320,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 319.261
+        },
+        "source": {
+          "path": "data/audio/sometimes/source.flac",
+          "sha256": "12ad8e1b044dbe057d4741aea9f8f316d9e8eff478a7427bccab1fcbd5158f4f",
+          "bytes": 66301784,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 319.24
+        },
+        "mono_16000": {
+          "path": "data/audio/sometimes/mono_16000.flac",
+          "sha256": "772c29c538613aa3453129a4c7c00c2f74c4bfde150171c1b8e22b65178af166",
+          "bytes": 12755578,
+          "sample_rate_hz": 16000,
+          "channels": 1,
+          "duration_seconds": 319.24
+        },
+        "mono_24000": {
+          "path": "data/audio/sometimes/mono_24000.flac",
+          "sha256": "008a453caefbd2126f6b77b8a502fd656189924d33f7d6afec98ab9ac31881d1",
+          "bytes": 18151960,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "duration_seconds": 319.24
+        }
+      },
+      "processing": {
+        "normalization": "none",
+        "resampling": "ffmpeg default resampler",
+        "downmix": "ffmpeg default mono channel mapping",
+        "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "yt_dlp_version": "2026.08.19",
+        "prepared_at": "2026-09-18T11:31:58.436734+00:00"
+      }
+    },
+    {
+      "id": "traffic",
+      "title": "Traffic noise",
+      "kind": "environment",
+      "query": "city traffic field recording no music",
+      "status": "ready",
+      "excerpt": {
+        "start_seconds": 0,
+        "duration_seconds": 180
+      },
+      "candidates": [
+        {
+          "id": "Jf9qzSnRnDA",
+          "title": "Heavy Rain and Street Traffic in Toronto | Black Screen | 8 Hours",
+          "url": "https://www.youtube.com/watch?v=Jf9qzSnRnDA",
+          "channel": "UrbanWindows",
+          "duration": 28836
+        },
+        {
+          "id": "GQhtuQP50hM",
+          "title": "Night Traffic Sounds for Relaxation & Sleep — Da Nang City Bridge, No Horns, 4K Real Sound, No Music",
+          "url": "https://www.youtube.com/watch?v=GQhtuQP50hM",
+          "channel": "Bill 42 Little Hair",
+          "duration": 2818
+        },
+        {
+          "id": "L2dCzpDMAug",
+          "title": "Heavy Rain and Street Traffic Outside Bedroom Window | Black Screen | 8 Hours [Members Video]",
+          "url": "https://www.youtube.com/watch?v=L2dCzpDMAug",
+          "channel": "UrbanWindows",
+          "duration": 28836
+        },
+        {
+          "id": "liM5VLosmSM",
+          "title": "City Ambience for Working Late - 3 HOURS Evening to Night Skyline | Focus, Deep Work, No Music",
+          "url": "https://www.youtube.com/watch?v=liM5VLosmSM",
+          "channel": "Megacity Nights ",
+          "duration": 10801
+        },
+        {
+          "id": "2ozBfk63j6c",
+          "title": "Night to Sunrise Over a Megacity - 9 HOURS Real City Ambience | Sleep Through the Night, No Music",
+          "url": "https://www.youtube.com/watch?v=2ozBfk63j6c",
+          "channel": "Megacity Nights ",
+          "duration": 32402
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=GQhtuQP50hM",
+      "selection_note": "Selected from title, uploader, and duration metadata; audio audition pending.",
+      "recording": {
+        "id": "GQhtuQP50hM",
+        "title": "Night Traffic Sounds for Relaxation & Sleep — Da Nang City Bridge, No Horns, 4K Real Sound, No Music",
+        "channel": "Bill 42 Little Hair",
+        "channel_url": "https://www.youtube.com/channel/UC864zN_mkfccUjyDyRYiC1w",
+        "webpage_url": "https://www.youtube.com/watch?v=GQhtuQP50hM",
+        "duration": 2817,
+        "upload_date": "20260904",
+        "license": null,
+        "format_id": "251",
+        "acodec": "opus",
+        "abr": 116.737
+      },
+      "files": {
+        "download": {
+          "path": "data/downloads/traffic/GQhtuQP50hM.webm",
+          "sha256": "87ce2cfb47044583f129bb01e8db77133737907a2a689e2f8fae3eb1431a5304",
+          "bytes": 2595369,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 180.021
+        },
+        "source": {
+          "path": "data/audio/traffic/source.flac",
+          "sha256": "c7ef2569497d0ea1ba369294c22c4d843eea27bd7e16e2795df78878acc51127",
+          "bytes": 30107346,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 180.0
+        },
+        "mono_16000": {
+          "path": "data/audio/traffic/mono_16000.flac",
+          "sha256": "d0b3bf090152cacc77d3837b2b1846d89461b3da1f492cfb65a82112d4152b5d",
+          "bytes": 6276453,
+          "sample_rate_hz": 16000,
+          "channels": 1,
+          "duration_seconds": 180.0
+        },
+        "mono_24000": {
+          "path": "data/audio/traffic/mono_24000.flac",
+          "sha256": "08ec044d36bafa198c0f2014574450a3ccc26dcdc72e156dc2f03c69ad012598",
+          "bytes": 8877850,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "duration_seconds": 180.0
+        }
+      },
+      "processing": {
+        "normalization": "none",
+        "resampling": "ffmpeg default resampler",
+        "downmix": "ffmpeg default mono channel mapping",
+        "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "yt_dlp_version": "2026.08.19",
+        "prepared_at": "2026-09-18T11:33:37.058698+00:00"
+      }
+    },
+    {
+      "id": "cage_speech",
+      "title": "John Cage — About silence",
+      "kind": "speech",
+      "query": "John Cage about silence interview 1991",
+      "status": "ready",
+      "candidates": [
+        {
+          "id": "jlVlSdkTa14",
+          "title": "John Cage e il silenzio (SUB ITA)",
+          "url": "https://www.youtube.com/watch?v=jlVlSdkTa14",
+          "channel": "Blogdispiccioli",
+          "duration": 433
+        },
+        {
+          "id": "USHRupVMvF0",
+          "title": "John Cage Interview About Silence - New York April 2, 1991",
+          "url": "https://www.youtube.com/watch?v=USHRupVMvF0",
+          "channel": "Ximo Tebar Jazz Guitar Channel",
+          "duration": 258
+        },
+        {
+          "id": "6sPEavkcXfk",
+          "title": "Interview with John Cage on Silence",
+          "url": "https://www.youtube.com/watch?v=6sPEavkcXfk",
+          "channel": "Owen Earl",
+          "duration": 258
+        },
+        {
+          "id": "ZDOnWgez9r0",
+          "title": "John Cage quote from documentary about silence",
+          "url": "https://www.youtube.com/watch?v=ZDOnWgez9r0",
+          "channel": "Zachary Anderson",
+          "duration": 46
+        },
+        {
+          "id": "7US4HcadWLM",
+          "title": "John Cage at the San Francisco Art Institute (1991)",
+          "url": "https://www.youtube.com/watch?v=7US4HcadWLM",
+          "channel": "△ thoHk ▽",
+          "duration": 4321
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=USHRupVMvF0",
+      "selection_note": "Selected from title, uploader, and duration metadata; audio audition pending.",
+      "recording": {
+        "id": "USHRupVMvF0",
+        "title": "John Cage Interview About Silence - New York April 2, 1991",
+        "channel": "Ximo Tebar Jazz Guitar Channel",
+        "channel_url": "https://www.youtube.com/channel/UCNLSVM7d27OAbIJJ2pULRCg",
+        "webpage_url": "https://www.youtube.com/watch?v=USHRupVMvF0",
+        "duration": 258,
+        "upload_date": "20260504",
+        "license": null,
+        "format_id": "251",
+        "acodec": "opus",
+        "abr": 104.711
+      },
+      "files": {
+        "download": {
+          "path": "data/downloads/cage_speech/USHRupVMvF0.webm",
+          "sha256": "b4c09385ad449b3a55920737fdc756a81fabec84671dca61a37f74338360376b",
+          "bytes": 3372263,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 257.641
+        },
+        "source": {
+          "path": "data/audio/cage_speech/source.flac",
+          "sha256": "53bf0b4503352085ee84c0ebc9b25c352b3a722ea4cca944c06fcd5a8652a5ab",
+          "bytes": 17213524,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 257.625417
+        },
+        "mono_16000": {
+          "path": "data/audio/cage_speech/mono_16000.flac",
+          "sha256": "3e30652ec6ee79b1167ad6d4cb32f7ad627a77ae3155eda80457291e593f8cb0",
+          "bytes": 8434349,
+          "sample_rate_hz": 16000,
+          "channels": 1,
+          "duration_seconds": 257.625438
+        },
+        "mono_24000": {
+          "path": "data/audio/cage_speech/mono_24000.flac",
+          "sha256": "35c1f42d396ae78debe4df1795bbe71cdfb61c676ba52ff406104301a9f6bc32",
+          "bytes": 11393365,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "duration_seconds": 257.625417
+        }
+      },
+      "processing": {
+        "normalization": "none",
+        "resampling": "ffmpeg default resampler",
+        "downmix": "ffmpeg default mono channel mapping",
+        "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "yt_dlp_version": "2026.08.19",
+        "prepared_at": "2026-09-18T11:33:52.809474+00:00"
+      }
+    },
+    {
+      "id": "obama_speech",
+      "title": "Barack Obama — 2004 DNC keynote address",
+      "kind": "speech",
+      "query": "Barack Obama 2004 DNC keynote speech full C SPAN",
+      "status": "ready",
+      "candidates": [
+        {
+          "id": "eWynt87PaJ0",
+          "title": "C-SPAN: Barack Obama Speech at 2004 DNC Convention",
+          "url": "https://www.youtube.com/watch?v=eWynt87PaJ0",
+          "channel": "C-SPAN",
+          "duration": 1128
+        },
+        {
+          "id": "ueMNqdB1QIE",
+          "title": "Obama's 2004 DNC keynote speech",
+          "url": "https://www.youtube.com/watch?v=ueMNqdB1QIE",
+          "channel": "CNN",
+          "duration": 965
+        },
+        {
+          "id": "yJzjyYL8l5Y",
+          "title": "Obama delivers keynote address at the 2004 DNC",
+          "url": "https://www.youtube.com/watch?v=yJzjyYL8l5Y",
+          "channel": "CNN",
+          "duration": 102
+        },
+        {
+          "id": "ato7BtisXzE",
+          "title": "C-SPAN: Sen. Barack Obama's Full Speech to the DNC",
+          "url": "https://www.youtube.com/watch?v=ato7BtisXzE",
+          "channel": "C-SPAN",
+          "duration": 3020
+        },
+        {
+          "id": "kKQV9bEcV28",
+          "title": "President Obama Acceptance Speech at 2012 Democratic National Convention (C-SPAN) - Full Speech",
+          "url": "https://www.youtube.com/watch?v=kKQV9bEcV28",
+          "channel": "C-SPAN",
+          "duration": 2356
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=eWynt87PaJ0",
+      "selection_note": "Selected from title, uploader, and duration metadata; audio audition pending.",
+      "recording": {
+        "id": "eWynt87PaJ0",
+        "title": "C-SPAN: Barack Obama Speech at 2004 DNC Convention",
+        "channel": "C-SPAN",
+        "channel_url": "https://www.youtube.com/channel/UCb--64Gl51jIEVE-GLDAVTg",
+        "webpage_url": "https://www.youtube.com/watch?v=eWynt87PaJ0",
+        "duration": 1128,
+        "upload_date": "20080818",
+        "license": null,
+        "format_id": "251",
+        "acodec": "opus",
+        "abr": 101.876
+      },
+      "files": {
+        "download": {
+          "path": "data/downloads/obama_speech/eWynt87PaJ0.webm",
+          "sha256": "3e3af993e4d2abd2f45a354c9320fc55d23d5ef3f8a5df844b40168eee973116",
+          "bytes": 14360987,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 1127.721
+        },
+        "source": {
+          "path": "data/audio/obama_speech/source.flac",
+          "sha256": "63d762f8bf1a07c47bedfd7272702846661e3392a98f5f04beba94c29cd45ed9",
+          "bytes": 90474886,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 1127.700333
+        },
+        "mono_16000": {
+          "path": "data/audio/obama_speech/mono_16000.flac",
+          "sha256": "ec4159ac74f220a601c09f42ef0746c13ecb1534de335615a4f9b267122b27a0",
+          "bytes": 41646077,
+          "sample_rate_hz": 16000,
+          "channels": 1,
+          "duration_seconds": 1127.700313
+        },
+        "mono_24000": {
+          "path": "data/audio/obama_speech/mono_24000.flac",
+          "sha256": "ffa1734df7562578b3d50cfdb63e00b75bfe7f9088d20d09ab00b803ffdc2db1",
+          "bytes": 59391296,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "duration_seconds": 1127.700333
+        }
+      },
+      "processing": {
+        "normalization": "none",
+        "resampling": "ffmpeg default resampler",
+        "downmix": "ffmpeg default mono channel mapping",
+        "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "yt_dlp_version": "2026.08.19",
+        "prepared_at": "2026-09-18T11:34:12.324772+00:00"
+      }
+    },
+    {
+      "id": "bohemian_rhapsody",
+      "title": "Queen — Bohemian Rhapsody",
+      "kind": "music",
+      "query": "Queen Bohemian Rhapsody official audio",
+      "status": "ready",
+      "candidates": [
+        {
+          "id": "XHrdsx8izBs",
+          "title": "Bohemian Rhapsody",
+          "url": "https://www.youtube.com/watch?v=XHrdsx8izBs",
+          "channel": "Queen Official",
+          "duration": 354
+        },
+        {
+          "id": "fJ9rUzIMcZQ",
+          "title": "Queen – Bohemian Rhapsody (Official Video Remastered)",
+          "url": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+          "channel": "Queen Official",
+          "duration": 360
+        },
+        {
+          "id": "axAtWjn3MfI",
+          "title": "Queen - Bohemian Rhapsody (with lyrics)",
+          "url": "https://www.youtube.com/watch?v=axAtWjn3MfI",
+          "channel": "ecsl",
+          "duration": 355
+        },
+        {
+          "id": "kM0Fpbz0W8U",
+          "title": "Bohemian Rhapsody (Live Aid)",
+          "url": "https://www.youtube.com/watch?v=kM0Fpbz0W8U",
+          "channel": "Queen Official",
+          "duration": 148
+        },
+        {
+          "id": "6Wg1_YOfiM0",
+          "title": "Bohemian Rhapsody (Live)",
+          "url": "https://www.youtube.com/watch?v=6Wg1_YOfiM0",
+          "channel": "Queen Official",
+          "duration": 329
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=XHrdsx8izBs",
+      "selection_note": "Selected from title, uploader, and duration metadata; audio audition pending.",
+      "recording": {
+        "id": "XHrdsx8izBs",
+        "title": "Bohemian Rhapsody",
+        "channel": "Queen Official",
+        "channel_url": "https://www.youtube.com/channel/UCEPMVbUzImPl4p8k4LkGevA",
+        "webpage_url": "https://www.youtube.com/watch?v=XHrdsx8izBs",
+        "duration": 354,
+        "upload_date": "20240718",
+        "license": null,
+        "format_id": "251",
+        "acodec": "opus",
+        "abr": 136.059
+      },
+      "files": {
+        "download": {
+          "path": "data/downloads/bohemian_rhapsody/XHrdsx8izBs.webm",
+          "sha256": "06d39a0864c29517fbc3385b928b5816e392f0197498847911781f399d82122e",
+          "bytes": 6014867,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 353.661
+        },
+        "source": {
+          "path": "data/audio/bohemian_rhapsody/source.flac",
+          "sha256": "febc7946e5ea2d8415555dec8c398b3389111773c671658522cee6d8b8ba19ca",
+          "bytes": 68402950,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 353.653333
+        },
+        "mono_16000": {
+          "path": "data/audio/bohemian_rhapsody/mono_16000.flac",
+          "sha256": "365d01e49e14a7912c70d2a69cd98e68efb24bbb5714463fc7fb005099fdd4e5",
+          "bytes": 13522249,
+          "sample_rate_hz": 16000,
+          "channels": 1,
+          "duration_seconds": 353.653313
+        },
+        "mono_24000": {
+          "path": "data/audio/bohemian_rhapsody/mono_24000.flac",
+          "sha256": "1ced533792bfadb99a1bee0a59347d3b4eabe40be800a8297d4c6d678ff8d228",
+          "bytes": 19499232,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "duration_seconds": 353.653333
+        }
+      },
+      "processing": {
+        "normalization": "none",
+        "resampling": "ffmpeg default resampler",
+        "downmix": "ffmpeg default mono channel mapping",
+        "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "yt_dlp_version": "2026.08.19",
+        "prepared_at": "2026-09-18T11:34:28.874684+00:00"
+      }
+    },
+    {
+      "id": "blue_suede_shoes",
+      "title": "Elvis Presley — Blue Suede Shoes",
+      "kind": "music",
+      "query": "Elvis Presley Blue Suede Shoes official audio",
+      "url": "https://www.youtube.com/watch?v=HeXnFx7aPOE",
+      "status": "ready",
+      "candidates": [
+        {
+          "id": "HeXnFx7aPOE",
+          "title": "Elvis Presley - Blue Suede Shoes (Official Audio)",
+          "url": "https://www.youtube.com/watch?v=HeXnFx7aPOE",
+          "channel": "Elvis Presley",
+          "duration": 123
+        },
+        {
+          "id": "FpdZzVhAZUU",
+          "title": "Elvis Presley - Blue Suede Shoes (Official Lyric Video)",
+          "url": "https://www.youtube.com/watch?v=FpdZzVhAZUU",
+          "channel": "Elvis Presley",
+          "duration": 120
+        },
+        {
+          "id": "Bm5HKlQ6nGM",
+          "title": "Elvis Presley - Blue Suede Shoes 1956 (COLOR and STEREO)",
+          "url": "https://www.youtube.com/watch?v=Bm5HKlQ6nGM",
+          "channel": "Yelserp22",
+          "duration": 133
+        },
+        {
+          "id": "oAZpKoDRmQM",
+          "title": "Elvis Presley - Blue Suede Shoes (1960)",
+          "url": "https://www.youtube.com/watch?v=oAZpKoDRmQM",
+          "channel": "King Of The Whole Wide World",
+          "duration": 128
+        },
+        {
+          "id": "O6BbL4DrrBo",
+          "title": "Elvis Presley - Blue Suede Shoes ('68 Comeback Special)",
+          "url": "https://www.youtube.com/watch?v=O6BbL4DrrBo",
+          "channel": "Elvis Presley",
+          "duration": 130
+        }
+      ],
+      "selection_note": "Official audio from Elvis Presley channel; full recording, no excerpt.",
+      "recording": {
+        "id": "HeXnFx7aPOE",
+        "title": "Elvis Presley - Blue Suede Shoes (Official Audio)",
+        "channel": "Elvis Presley",
+        "channel_url": "https://www.youtube.com/channel/UCSEmH1YyFWltSBYkfLMtkcg",
+        "webpage_url": "https://www.youtube.com/watch?v=HeXnFx7aPOE",
+        "duration": 123,
+        "upload_date": "20190118",
+        "license": null,
+        "format_id": "251",
+        "acodec": "opus",
+        "abr": 99.24
+      },
+      "files": {
+        "download": {
+          "path": "data/downloads/blue_suede_shoes/HeXnFx7aPOE.webm",
+          "sha256": "752535083ec1a60d0943e7c1bb8393669835cbcde14480707cec448c9d7baec8",
+          "bytes": 1520624,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 122.581
+        },
+        "source": {
+          "path": "data/audio/blue_suede_shoes/source.flac",
+          "sha256": "7864ca7e4f170d9f9db5345d0f28453f0714d1c203bc2938fd1723e9895a3044",
+          "bytes": 12493243,
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "duration_seconds": 122.554938
+        },
+        "mono_16000": {
+          "path": "data/audio/blue_suede_shoes/mono_16000.flac",
+          "sha256": "5c3ad8488c6494a121fdc2bef57e4184cef06eea862ce572686a8a6ae3168649",
+          "bytes": 4875258,
+          "sample_rate_hz": 16000,
+          "channels": 1,
+          "duration_seconds": 122.554938
+        },
+        "mono_24000": {
+          "path": "data/audio/blue_suede_shoes/mono_24000.flac",
+          "sha256": "92b0ec46823df70de3dfdc5b8655a4c0d55c117b67c7f94dab0bf1110e95b77f",
+          "bytes": 6944673,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "duration_seconds": 122.554958
+        }
+      },
+      "processing": {
+        "normalization": "none",
+        "resampling": "ffmpeg default resampler",
+        "downmix": "ffmpeg default mono channel mapping",
+        "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "yt_dlp_version": "2026.08.19",
+        "prepared_at": "2026-09-19T15:13:56.823454+00:00"
+      }
+    }
+  ],
+  "last_attempt_date": "2026-09-18"
+}

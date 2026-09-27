@@ -1,0 +1,102 @@
+{
+  "checked_date": "2026-09-19",
+  "attention_comparisons": {
+    "chirp_wav2vec2": {
+      "encoder": "wav2vec2",
+      "revision": "0b5b8e868dd84f03fd87d01f9c4ff0f080fecfe8",
+      "native_attention_max_error": 0.0,
+      "duration_seconds": 4.0
+    },
+    "chirp_hubert": {
+      "encoder": "hubert",
+      "revision": "dba3bb02fda4248b6e082697eee756de8fe8aa8a",
+      "native_attention_max_error": 0.0,
+      "duration_seconds": 4.0
+    },
+    "chirp_muq": {
+      "encoder": "muq",
+      "revision": "0562a57814f6f8bbd9fdea0a25921a2fce1a841a",
+      "native_attention_max_error": 0.0,
+      "duration_seconds": 4.0
+    }
+  },
+  "generator": "tapeheads.validation.validate and unittest",
+  "trace_checks": {
+    "chirp_wav2vec2": {
+      "heads": 12,
+      "queries": 199,
+      "playback_segments": 750,
+      "duration_seconds": 4.0,
+      "guard_violations": 0
+    },
+    "chirp_hubert": {
+      "heads": 12,
+      "queries": 199,
+      "playback_segments": 578,
+      "duration_seconds": 4.0,
+      "guard_violations": 0
+    },
+    "chirp_muq": {
+      "heads": 16,
+      "queries": 100,
+      "playback_segments": 613,
+      "duration_seconds": 4.0,
+      "guard_violations": 0
+    },
+    "dodge_wav2vec2": {
+      "heads": 12,
+      "queries": 599,
+      "playback_segments": 2608,
+      "duration_seconds": 12.0,
+      "guard_violations": 0
+    },
+    "dodge_clap": {
+      "heads": 4,
+      "queries": 307,
+      "playback_segments": 70,
+      "duration_seconds": 12.0,
+      "guard_violations": 0
+    },
+    "dodge_clap_sensitive": {
+      "heads": 4,
+      "queries": 307,
+      "playback_segments": 410,
+      "duration_seconds": 12.0,
+      "guard_violations": 0
+    },
+    "dodge_muq": {
+      "heads": 16,
+      "queries": 300,
+      "playback_segments": 1821,
+      "duration_seconds": 12.0,
+      "guard_violations": 0
+    },
+    "dodge_full_wav2vec2": {
+      "heads": 12,
+      "queries": 6131,
+      "playback_segments": 19977,
+      "duration_seconds": 122.64,
+      "guard_violations": 0,
+      "video_decode": "passed",
+      "video_width": 1280,
+      "video_height": 720,
+      "video_fps": 30
+    },
+    "blue_suede_shoes_full_wav2vec2": {
+      "heads": 12,
+      "queries": 6127,
+      "playback_segments": 27534,
+      "duration_seconds": 122.5549375,
+      "guard_violations": 0
+    }
+  },
+  "unit_tests_passed": 12,
+  "full_input_run": {
+    "encoder": "wav2vec2",
+    "context": "full_input",
+    "duration_seconds": 122.64,
+    "elapsed_seconds": 127.35171464458108,
+    "heads": 12,
+    "queries": 6131
+  }
+}

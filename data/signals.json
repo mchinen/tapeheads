@@ -1,0 +1,168 @@
+{
+  "format": "tapeheads-signals/1",
+  "generator": "tools/generate_signals.py",
+  "python_version": "3.11.2 (main, May 12 2026, 05:17:27) [GCC 12.2.0]",
+  "sample_format": "PCM16",
+  "rate_policy": "Generate at 48 kHz; derive 16 and 24 kHz copies with the FFmpeg default resampler.",
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "entries": [
+    {
+      "id": "sine",
+      "kind": "synthetic",
+      "status": "ready",
+      "parameters": {
+        "frequency_hz": 440,
+        "amplitude": 0.25,
+        "fade_seconds": 0.01
+      },
+      "files": [
+        {
+          "path": "data/audio/sine/mono_48000.wav",
+          "sha256": "25b0b42a1443f9aa78257c5d2a776863dbb65a9d72b585818c7a8661c68c51a6",
+          "sample_rate_hz": 48000,
+          "samples": 1440000,
+          "channels": 1,
+          "duration_seconds": 30,
+          "peak": 0.25,
+          "rms": 0.17673165417214629,
+          "clipped_samples": 0
+        },
+        {
+          "path": "data/audio/sine/mono_16000.wav",
+          "sha256": "2d26489de96b63ab49a0abbc68d5c6a67cdd9a99a9d169e534134282771c4947",
+          "sample_rate_hz": 16000,
+          "samples": 480000,
+          "channels": 1,
+          "duration_seconds": 30.0
+        },
+        {
+          "path": "data/audio/sine/mono_24000.wav",
+          "sha256": "e217e3b24e97d2c0ef42fa74ca4940d88fb28ccff8f395986b6281d97ee99a22",
+          "sample_rate_hz": 24000,
+          "samples": 720000,
+          "channels": 1,
+          "duration_seconds": 30.0
+        }
+      ]
+    },
+    {
+      "id": "chirp",
+      "kind": "synthetic",
+      "status": "ready",
+      "parameters": {
+        "start_hz": 40,
+        "end_hz": 7000,
+        "sweep": "linear",
+        "amplitude": 0.25,
+        "fade_seconds": 0.01
+      },
+      "files": [
+        {
+          "path": "data/audio/chirp/mono_48000.wav",
+          "sha256": "df7445e6549b9a3e53f1f9115769ceec27c37c5bf418801936b29a1dd16ea45a",
+          "sample_rate_hz": 48000,
+          "samples": 1440000,
+          "channels": 1,
+          "duration_seconds": 30,
+          "peak": 0.25,
+          "rms": 0.17673080927629095,
+          "clipped_samples": 0
+        },
+        {
+          "path": "data/audio/chirp/mono_16000.wav",
+          "sha256": "1e5bdca7c7470b292acaf1921c413d79938d516bf118ee2b7cf6e665b4b9f04a",
+          "sample_rate_hz": 16000,
+          "samples": 480000,
+          "channels": 1,
+          "duration_seconds": 30.0
+        },
+        {
+          "path": "data/audio/chirp/mono_24000.wav",
+          "sha256": "dae8860bdff408cef2828991481c980f0b87991496029d5d1c12f0882981ebeb",
+          "sample_rate_hz": 24000,
+          "samples": 720000,
+          "channels": 1,
+          "duration_seconds": 30.0
+        }
+      ]
+    },
+    {
+      "id": "gaussian_noise",
+      "kind": "synthetic",
+      "status": "ready",
+      "parameters": {
+        "mean": 0,
+        "standard_deviation": 0.1,
+        "seed": 20260918
+      },
+      "files": [
+        {
+          "path": "data/audio/gaussian_noise/mono_48000.wav",
+          "sha256": "77d5f9aaf6cc4ae3a831d8846257975e1b221da54c12ec39e0c3ae7393d78c1f",
+          "sample_rate_hz": 48000,
+          "samples": 1440000,
+          "channels": 1,
+          "duration_seconds": 30,
+          "peak": 0.543060302734375,
+          "rms": 0.10000261065080916,
+          "clipped_samples": 0
+        },
+        {
+          "path": "data/audio/gaussian_noise/mono_16000.wav",
+          "sha256": "d9a4f52608ef09010bc0d1d9fffeec1bf91a9461c9e558a0201b3cbb90f67adb",
+          "sample_rate_hz": 16000,
+          "samples": 480000,
+          "channels": 1,
+          "duration_seconds": 30.0
+        },
+        {
+          "path": "data/audio/gaussian_noise/mono_24000.wav",
+          "sha256": "4d195cb5d9cd9acaff574a6612ae3cc45536a1f8816f0eb957b0c3e5d296bdc1",
+          "sample_rate_hz": 24000,
+          "samples": 720000,
+          "channels": 1,
+          "duration_seconds": 30.0
+        }
+      ]
+    },
+    {
+      "id": "gaussian_pulse",
+      "kind": "synthetic",
+      "status": "ready",
+      "parameters": {
+        "center_seconds": 15,
+        "sigma_seconds": 0.01,
+        "amplitude": 0.5
+      },
+      "files": [
+        {
+          "path": "data/audio/gaussian_pulse/mono_48000.wav",
+          "sha256": "35ac9ae80b1a6eff8957ee63897360be84c9138cb2d5f1d2d5b0daf9a5813b29",
+          "sample_rate_hz": 48000,
+          "samples": 1440000,
+          "channels": 1,
+          "duration_seconds": 30,
+          "peak": 0.5,
+          "rms": 0.01215301721315483,
+          "clipped_samples": 0
+        },
+        {
+          "path": "data/audio/gaussian_pulse/mono_16000.wav",
+          "sha256": "cff775bb9c7483869a58ff203c9fe339eef74757a13f02489de2ce8a39606636",
+          "sample_rate_hz": 16000,
+          "samples": 480000,
+          "channels": 1,
+          "duration_seconds": 30.0
+        },
+        {
+          "path": "data/audio/gaussian_pulse/mono_24000.wav",
+          "sha256": "f8dadb20bee70ab49f71b866d7d54d2761c8ad8768ba68bce588bd03905edb5b",
+          "sample_rate_hz": 24000,
+          "samples": 720000,
+          "channels": 1,
+          "duration_seconds": 30.0
+        }
+      ]
+    }
+  ]
+}

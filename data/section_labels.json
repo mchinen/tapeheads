@@ -1,0 +1,76 @@
+{
+  "generator": "reference section timestamps transcribed without lyrics",
+  "alignment": "Approximate; not verified against the downloaded audio edition.",
+  "recordings": {
+    "espresso": {
+      "url": "https://songparts.com/songs/sabrina-carpenter/espresso",
+      "sections": [
+        [
+          0,
+          "Intro"
+        ],
+        [
+          9,
+          "Chorus"
+        ],
+        [
+          28,
+          "Verse"
+        ],
+        [
+          46,
+          "Bridge"
+        ],
+        [
+          65,
+          "Chorus"
+        ],
+        [
+          88,
+          "Verse"
+        ],
+        [
+          106,
+          "Bridge"
+        ],
+        [
+          125,
+          "Chorus"
+        ],
+        [
+          143,
+          "Outro"
+        ]
+      ]
+    },
+    "bohemian_rhapsody": {
+      "url": "https://en.wikipedia.org/wiki/Bohemian_Rhapsody",
+      "sections": [
+        [
+          0,
+          "Intro"
+        ],
+        [
+          49,
+          "Ballad"
+        ],
+        [
+          157,
+          "Guitar solo"
+        ],
+        [
+          183,
+          "Opera"
+        ],
+        [
+          247,
+          "Rock"
+        ],
+        [
+          294,
+          "Outro"
+        ]
+      ]
+    }
+  }
+}

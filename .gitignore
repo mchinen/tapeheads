@@ -1,0 +1,17 @@
+.cache/
+.tools/
+.venv/
+.pytype/
+.ruff_cache/
+__pycache__/
+*.pyc
+data/audio/
+data/downloads/
+data/logs/
+outputs/
+data/*.lock
+data/*.pid
+.env
+.env.*
+!.env.example
+.DS_Store

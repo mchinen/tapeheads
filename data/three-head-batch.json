@@ -1,0 +1,422 @@
+{
+  "generator": "python -m tools.run_per_head_studies",
+  "code_sha256": "cca56e21e639d7066743c9653aa10751ef2a3c459a49d9c512d95c4da4d5a393",
+  "jobs": [
+    {
+      "source": "chirp_sequence",
+      "input": "data/audio/chirp_sequence/mono_48000.wav",
+      "encoder": "wav2vec2",
+      "output": "outputs/chirp_sequence_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790447484.1750062,
+      "exit_code": 0,
+      "finished_at_unix": 1790447530.8543155
+    },
+    {
+      "source": "chirp_sequence",
+      "input": "data/audio/chirp_sequence/mono_48000.wav",
+      "encoder": "muq",
+      "output": "outputs/chirp_sequence_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790447530.8550353,
+      "exit_code": 0,
+      "finished_at_unix": 1790447569.9047654
+    },
+    {
+      "source": "espresso",
+      "input": "data/audio/espresso/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/espresso_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790447569.9055054,
+      "exit_code": 0,
+      "finished_at_unix": 1790447931.4246268
+    },
+    {
+      "source": "espresso",
+      "input": "data/audio/espresso/source.flac",
+      "encoder": "muq",
+      "output": "outputs/espresso_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790447931.4253912,
+      "exit_code": 0,
+      "finished_at_unix": 1790448172.159616
+    },
+    {
+      "source": "bohemian_rhapsody",
+      "input": "data/audio/bohemian_rhapsody/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/bohemian_rhapsody_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790448172.1604278,
+      "exit_code": 0,
+      "finished_at_unix": 1790449102.5483959
+    },
+    {
+      "source": "bohemian_rhapsody",
+      "input": "data/audio/bohemian_rhapsody/source.flac",
+      "encoder": "muq",
+      "output": "outputs/bohemian_rhapsody_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790449102.5491192,
+      "exit_code": 0,
+      "finished_at_unix": 1790449661.9178944
+    },
+    {
+      "source": "dodge_image",
+      "input": "data/audio/dodge_image/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/dodge_image_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790449661.9186714,
+      "exit_code": 0,
+      "finished_at_unix": 1790449883.0394993
+    },
+    {
+      "source": "dodge_image",
+      "input": "data/audio/dodge_image/source.flac",
+      "encoder": "muq",
+      "output": "outputs/dodge_image_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790449883.040232,
+      "exit_code": 0,
+      "finished_at_unix": 1790450041.380829
+    },
+    {
+      "source": "blue_suede_shoes",
+      "input": "data/audio/blue_suede_shoes/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/blue_suede_shoes_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790450041.3816147,
+      "exit_code": 0,
+      "finished_at_unix": 1790450266.3313282
+    },
+    {
+      "source": "blue_suede_shoes",
+      "input": "data/audio/blue_suede_shoes/source.flac",
+      "encoder": "muq",
+      "output": "outputs/blue_suede_shoes_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790450266.3320599,
+      "exit_code": 0,
+      "finished_at_unix": 1790450429.409144
+    },
+    {
+      "source": "forest_birds",
+      "input": "data/audio/forest_birds/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/forest_birds_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790450429.4099298,
+      "exit_code": 0,
+      "finished_at_unix": 1790450450.3125618
+    },
+    {
+      "source": "forest_birds",
+      "input": "data/audio/forest_birds/source.flac",
+      "encoder": "muq",
+      "output": "outputs/forest_birds_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790450450.3133414,
+      "exit_code": 0,
+      "finished_at_unix": 1790450470.9768054
+    },
+    {
+      "source": "chirp",
+      "input": "data/audio/chirp/mono_48000.wav",
+      "encoder": "wav2vec2",
+      "output": "outputs/chirp_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790450470.9775808,
+      "exit_code": 0,
+      "finished_at_unix": 1790450511.5155609
+    },
+    {
+      "source": "chirp",
+      "input": "data/audio/chirp/mono_48000.wav",
+      "encoder": "muq",
+      "output": "outputs/chirp_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790450511.5162838,
+      "exit_code": 0,
+      "finished_at_unix": 1790450545.3869476
+    },
+    {
+      "source": "gaussian_noise",
+      "input": "data/audio/gaussian_noise/mono_48000.wav",
+      "encoder": "wav2vec2",
+      "output": "outputs/gaussian_noise_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790450545.3877602,
+      "exit_code": 0,
+      "finished_at_unix": 1790450565.0012162
+    },
+    {
+      "source": "gaussian_noise",
+      "input": "data/audio/gaussian_noise/mono_48000.wav",
+      "encoder": "muq",
+      "output": "outputs/gaussian_noise_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790450565.0101159,
+      "exit_code": 0,
+      "finished_at_unix": 1790450598.4666612
+    },
+    {
+      "source": "gaussian_pulse",
+      "input": "data/audio/gaussian_pulse/mono_48000.wav",
+      "encoder": "wav2vec2",
+      "output": "outputs/gaussian_pulse_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790450598.4674711,
+      "exit_code": 0,
+      "finished_at_unix": 1790450621.6738417
+    },
+    {
+      "source": "gaussian_pulse",
+      "input": "data/audio/gaussian_pulse/mono_48000.wav",
+      "encoder": "muq",
+      "output": "outputs/gaussian_pulse_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790450621.674607,
+      "exit_code": 0,
+      "finished_at_unix": 1790450654.6278675
+    },
+    {
+      "source": "sine",
+      "input": "data/audio/sine/mono_48000.wav",
+      "encoder": "wav2vec2",
+      "output": "outputs/sine_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790450654.6286798,
+      "exit_code": 0,
+      "finished_at_unix": 1790450675.0991254
+    },
+    {
+      "source": "sine",
+      "input": "data/audio/sine/mono_48000.wav",
+      "encoder": "muq",
+      "output": "outputs/sine_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790450675.0999787,
+      "exit_code": 0,
+      "finished_at_unix": 1790450707.278109
+    },
+    {
+      "source": "nature_montage",
+      "input": "data/audio/nature_montage/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/nature_montage_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790450707.2789276,
+      "exit_code": 0,
+      "finished_at_unix": 1790450806.7185874
+    },
+    {
+      "source": "nature_montage",
+      "input": "data/audio/nature_montage/source.flac",
+      "encoder": "muq",
+      "output": "outputs/nature_montage_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790450806.7194276,
+      "exit_code": 0,
+      "finished_at_unix": 1790450886.980083
+    },
+    {
+      "source": "beach",
+      "input": "data/audio/beach/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/beach_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790450886.9810488,
+      "exit_code": 0,
+      "finished_at_unix": 1790451218.4070282
+    },
+    {
+      "source": "beach",
+      "input": "data/audio/beach/source.flac",
+      "encoder": "muq",
+      "output": "outputs/beach_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790451218.4078815,
+      "exit_code": 0,
+      "finished_at_unix": 1790451464.921928
+    },
+    {
+      "source": "rain",
+      "input": "data/audio/rain/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/rain_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790451464.9228063,
+      "exit_code": 0,
+      "finished_at_unix": 1790451667.5959795
+    },
+    {
+      "source": "rain",
+      "input": "data/audio/rain/source.flac",
+      "encoder": "muq",
+      "output": "outputs/rain_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790451667.5967588,
+      "exit_code": 0,
+      "finished_at_unix": 1790451906.0164464
+    },
+    {
+      "source": "traffic",
+      "input": "data/audio/traffic/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/traffic_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790451906.0172005,
+      "exit_code": 0,
+      "finished_at_unix": 1790452259.0324361
+    },
+    {
+      "source": "traffic",
+      "input": "data/audio/traffic/source.flac",
+      "encoder": "muq",
+      "output": "outputs/traffic_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790452259.0333157,
+      "exit_code": 0,
+      "finished_at_unix": 1790452506.9059799
+    },
+    {
+      "source": "cage_speech",
+      "input": "data/audio/cage_speech/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/cage_speech_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790452506.906771,
+      "exit_code": 0,
+      "finished_at_unix": 1790453148.4485972
+    },
+    {
+      "source": "cage_speech",
+      "input": "data/audio/cage_speech/source.flac",
+      "encoder": "muq",
+      "output": "outputs/cage_speech_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790453148.44946,
+      "exit_code": 0,
+      "finished_at_unix": 1790453532.6753044
+    },
+    {
+      "source": "chopin_nocturne",
+      "input": "data/audio/chopin_nocturne/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/chopin_nocturne_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790453532.6762338,
+      "exit_code": 0,
+      "finished_at_unix": 1790454150.998977
+    },
+    {
+      "source": "chopin_nocturne",
+      "input": "data/audio/chopin_nocturne/source.flac",
+      "encoder": "muq",
+      "output": "outputs/chopin_nocturne_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790454150.9998572,
+      "exit_code": 0,
+      "finished_at_unix": 1790454536.730128
+    },
+    {
+      "source": "fake_plastic_trees",
+      "input": "data/audio/fake_plastic_trees/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/fake_plastic_trees_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790454536.7310448,
+      "exit_code": 0,
+      "finished_at_unix": 1790455256.0543633
+    },
+    {
+      "source": "fake_plastic_trees",
+      "input": "data/audio/fake_plastic_trees/source.flac",
+      "encoder": "muq",
+      "output": "outputs/fake_plastic_trees_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790455256.0553937,
+      "exit_code": 0,
+      "finished_at_unix": 1790455701.893342
+    },
+    {
+      "source": "sometimes",
+      "input": "data/audio/sometimes/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/sometimes_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790455701.9027827,
+      "exit_code": 0,
+      "finished_at_unix": 1790456506.611928
+    },
+    {
+      "source": "sometimes",
+      "input": "data/audio/sometimes/source.flac",
+      "encoder": "muq",
+      "output": "outputs/sometimes_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790456506.612853,
+      "exit_code": 0,
+      "finished_at_unix": 1790456994.6741495
+    },
+    {
+      "source": "so_what",
+      "input": "data/audio/so_what/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/so_what_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790456994.6750386,
+      "exit_code": 0,
+      "finished_at_unix": 1790459000.6678603
+    },
+    {
+      "source": "so_what",
+      "input": "data/audio/so_what/source.flac",
+      "encoder": "muq",
+      "output": "outputs/so_what_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790459000.668712,
+      "exit_code": 0,
+      "finished_at_unix": 1790460052.3251097
+    },
+    {
+      "source": "bach_cello",
+      "input": "data/audio/bach_cello/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/bach_cello_wav2vec2_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790460052.334607,
+      "exit_code": 0,
+      "finished_at_unix": 1790465504.1325746
+    },
+    {
+      "source": "bach_cello",
+      "input": "data/audio/bach_cello/source.flac",
+      "encoder": "muq",
+      "output": "outputs/bach_cello_muq_threeheads3",
+      "status": "complete",
+      "started_at_unix": 1790465504.133716,
+      "exit_code": 0,
+      "finished_at_unix": 1790468051.904907
+    },
+    {
+      "source": "obama_speech",
+      "input": "data/audio/obama_speech/source.flac",
+      "encoder": "wav2vec2",
+      "output": "outputs/obama_speech_wav2vec2_threeheads3",
+      "status": "running",
+      "started_at_unix": 1790468051.9058733
+    },
+    {
+      "source": "obama_speech",
+      "input": "data/audio/obama_speech/source.flac",
+      "encoder": "muq",
+      "output": "outputs/obama_speech_muq_threeheads3",
+      "status": "pending"
+    }
+  ],
+  "status": "running"
+}

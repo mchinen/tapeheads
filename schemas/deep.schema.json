@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Shared recursive tape graph",
+  "type": "object",
+  "required": [
+    "format",
+    "encoder",
+    "source",
+    "layers",
+    "frames",
+    "stages",
+    "annotations",
+    "recursion",
+    "audio",
+    "rendering"
+  ],
+  "properties": {
+    "format": {
+      "const": "tapeheads/4"
+    },
+    "layers": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": [
+          "model",
+          "selection",
+          "heads",
+          "near_monitor",
+          "native_trace",
+          "native_trace_sha256"
+        ],
+        "properties": {
+          "native_trace_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "heads": {
+            "type": "array",
+            "minItems": 1
+          }
+        }
+      }
+    },
+    "stages": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": [
+          "start",
+          "end",
+          "depth"
+        ],
+        "properties": {
+          "depth": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 8
+          }
+        }
+      }
+    },
+    "annotations": {
+      "type": "object",
+      "required": [
+        "method",
+        "sections",
+        "lyrics"
+      ]
+    },
+    "recursion": {
+      "type": "object",
+      "required": [
+        "version",
+        "direct_weight",
+        "recursive_weight",
+        "audio_pruning",
+        "normalization",
+        "near_policy"
+      ],
+      "properties": {
+        "audio_pruning": {
+          "const": false
+        }
+      }
+    }
+  }
+}

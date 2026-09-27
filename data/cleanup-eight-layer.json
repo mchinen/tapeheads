@@ -1,0 +1,104 @@
+[
+  {
+    "directory": "outputs/blue_suede_shoes_full_muq_depth8",
+    "preserved_videos": [
+      "outputs/archived_videos/blue_suede_shoes_full_muq_depth8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/bohemian_rhapsody_hubert_collection8",
+    "preserved_videos": [
+      "outputs/archived_videos/bohemian_rhapsody_hubert_collection8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/bohemian_rhapsody_muq_collection8",
+    "preserved_videos": [
+      "outputs/archived_videos/bohemian_rhapsody_muq_collection8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/bohemian_rhapsody_wav2vec2_collection8",
+    "preserved_videos": [
+      "outputs/archived_videos/bohemian_rhapsody_wav2vec2_collection8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/chirp_sequence_hubert_collection8",
+    "preserved_videos": [
+      "outputs/archived_videos/chirp_sequence_hubert_collection8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/chirp_sequence_muq_collection8",
+    "preserved_videos": [
+      "outputs/archived_videos/chirp_sequence_muq_collection8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/chirp_sequence_muq_depth8",
+    "preserved_videos": [
+      "outputs/archived_videos/chirp_sequence_muq_depth8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/chirp_sequence_wav2vec2_collection8",
+    "preserved_videos": [
+      "outputs/archived_videos/chirp_sequence_wav2vec2_collection8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/espresso_hubert_collection8",
+    "preserved_videos": [
+      "outputs/archived_videos/espresso_hubert_collection8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/espresso_muq_collection8",
+    "preserved_videos": [
+      "outputs/archived_videos/espresso_muq_collection8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/espresso_wav2vec2_collection8",
+    "preserved_videos": [
+      "outputs/archived_videos/espresso_wav2vec2_collection8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/fake_plastic_trees_hubert_collection8",
+    "preserved_videos": [
+      "outputs/archived_videos/fake_plastic_trees_hubert_collection8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/fake_plastic_trees_muq_collection8",
+    "preserved_videos": [
+      "outputs/archived_videos/fake_plastic_trees_muq_collection8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/fake_plastic_trees_wav2vec2_collection8",
+    "preserved_videos": [
+      "outputs/archived_videos/fake_plastic_trees_wav2vec2_collection8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/nature_montage_hubert_collection8",
+    "preserved_videos": [
+      "outputs/archived_videos/nature_montage_hubert_collection8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/nature_montage_muq_collection8",
+    "preserved_videos": [
+      "outputs/archived_videos/nature_montage_muq_collection8/tapeheads.mp4"
+    ]
+  },
+  {
+    "directory": "outputs/nature_montage_wav2vec2_collection8",
+    "preserved_videos": [
+      "outputs/archived_videos/nature_montage_wav2vec2_collection8/tapeheads.mp4"
+    ]
+  }
+]

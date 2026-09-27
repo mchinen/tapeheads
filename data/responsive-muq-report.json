@@ -1,0 +1,396 @@
+{
+  "generator": "python -m tools.run_responsive_studies",
+  "encoder": "muq",
+  "studies": {
+    "espresso": {
+      "trace": "outputs/espresso_muq_responsive3/trace.json",
+      "validation": {
+        "layers": 3,
+        "native_checks": [
+          {
+            "heads": 16,
+            "queries": 4386,
+            "playback_segments": 8732,
+            "duration_seconds": 175.438375,
+            "guard_violations": 0,
+            "maximum_remote_voices": 3
+          },
+          {
+            "heads": 16,
+            "queries": 4386,
+            "playback_segments": 10083,
+            "duration_seconds": 175.438375,
+            "guard_violations": 0,
+            "maximum_remote_voices": 3
+          },
+          {
+            "heads": 16,
+            "queries": 4386,
+            "playback_segments": 10874,
+            "duration_seconds": 175.438375,
+            "guard_violations": 0,
+            "maximum_remote_voices": 3
+          }
+        ],
+        "duration_seconds": 175.438375,
+        "reconstruction_max_error_bound": 1e-06,
+        "peak": 0.6446428298950195,
+        "annotations": 1
+      },
+      "layers": [
+        {
+          "layer": 1,
+          "scheduled_samples": 12631563,
+          "unselected_samples": 0,
+          "unsupported_samples": 0,
+          "unsupported_fraction": 0.0,
+          "runs": 8732,
+          "median_run_seconds": 0.04,
+          "maximum_run_seconds": 2.96,
+          "runs_over_15_seconds": 0,
+          "runs_at_most_50_ms": 6570,
+          "near_vertical_run_fraction": 0.05451213925790197
+        },
+        {
+          "layer": 2,
+          "scheduled_samples": 12631563,
+          "unselected_samples": 0,
+          "unsupported_samples": 0,
+          "unsupported_fraction": 0.0,
+          "runs": 10083,
+          "median_run_seconds": 0.04,
+          "maximum_run_seconds": 3.16,
+          "runs_over_15_seconds": 0,
+          "runs_at_most_50_ms": 8361,
+          "near_vertical_run_fraction": 0.05881186154914212
+        },
+        {
+          "layer": 3,
+          "scheduled_samples": 12631563,
+          "unselected_samples": 0,
+          "unsupported_samples": 0,
+          "unsupported_fraction": 0.0,
+          "runs": 10874,
+          "median_run_seconds": 0.04,
+          "maximum_run_seconds": 1.52,
+          "runs_over_15_seconds": 0,
+          "runs_at_most_50_ms": 9326,
+          "near_vertical_run_fraction": 0.03623321684752621
+        }
+      ],
+      "spectral_diagnostics": {
+        "source": {
+          "25_hz_prominence_db": 0.7541108770829051,
+          "30_hz_prominence_db": -1.9353146845007931,
+          "50_hz_prominence_db": 2.914662927485901
+        },
+        "new_depth_3": {
+          "25_hz_prominence_db": 4.319498263548261,
+          "30_hz_prominence_db": -0.31382232802192245,
+          "50_hz_prominence_db": 4.711031857829092
+        },
+        "previous_depth_3": {
+          "25_hz_prominence_db": 1.0870845549675128,
+          "30_hz_prominence_db": -1.4066809447836006,
+          "50_hz_prominence_db": 11.068532020804842
+        },
+        "previous_depth_8": {
+          "25_hz_prominence_db": 4.5563278390434725,
+          "30_hz_prominence_db": -2.116074478351285,
+          "50_hz_prominence_db": 25.124207282493888
+        }
+      },
+      "video_decode": "passed"
+    },
+    "bohemian_rhapsody": {
+      "trace": "outputs/bohemian_rhapsody_muq_responsive3/trace.json",
+      "validation": {
+        "layers": 3,
+        "native_checks": [
+          {
+            "heads": 16,
+            "queries": 8842,
+            "playback_segments": 15337,
+            "duration_seconds": 353.6533333333333,
+            "guard_violations": 0,
+            "maximum_remote_voices": 3
+          },
+          {
+            "heads": 16,
+            "queries": 8842,
+            "playback_segments": 17149,
+            "duration_seconds": 353.6533333333333,
+            "guard_violations": 0,
+            "maximum_remote_voices": 3
+          },
+          {
+            "heads": 16,
+            "queries": 8842,
+            "playback_segments": 18429,
+            "duration_seconds": 353.6533333333333,
+            "guard_violations": 0,
+            "maximum_remote_voices": 3
+          }
+        ],
+        "duration_seconds": 353.6533333333333,
+        "reconstruction_max_error_bound": 1e-06,
+        "peak": 0.7345864176750183,
+        "annotations": 1
+      },
+      "layers": [
+        {
+          "layer": 1,
+          "scheduled_samples": 25463040,
+          "unselected_samples": 0,
+          "unsupported_samples": 0,
+          "unsupported_fraction": 0.0,
+          "runs": 15337,
+          "median_run_seconds": 0.04,
+          "maximum_run_seconds": 2.28,
+          "runs_over_15_seconds": 0,
+          "runs_at_most_50_ms": 10941,
+          "near_vertical_run_fraction": 0.0492925604746691
+        },
+        {
+          "layer": 2,
+          "scheduled_samples": 25463040,
+          "unselected_samples": 0,
+          "unsupported_samples": 0,
+          "unsupported_fraction": 0.0,
+          "runs": 17149,
+          "median_run_seconds": 0.04,
+          "maximum_run_seconds": 4.16,
+          "runs_over_15_seconds": 0,
+          "runs_at_most_50_ms": 12922,
+          "near_vertical_run_fraction": 0.08845996851128346
+        },
+        {
+          "layer": 3,
+          "scheduled_samples": 25463040,
+          "unselected_samples": 0,
+          "unsupported_samples": 0,
+          "unsupported_fraction": 0.0,
+          "runs": 18429,
+          "median_run_seconds": 0.04,
+          "maximum_run_seconds": 1.68,
+          "runs_over_15_seconds": 0,
+          "runs_at_most_50_ms": 14125,
+          "near_vertical_run_fraction": 0.06793640457973846
+        }
+      ],
+      "spectral_diagnostics": {
+        "source": {
+          "25_hz_prominence_db": -0.42785904766113103,
+          "30_hz_prominence_db": -2.478994847284902,
+          "50_hz_prominence_db": 1.5163647847717994
+        },
+        "new_depth_3": {
+          "25_hz_prominence_db": 2.4529112971632334,
+          "30_hz_prominence_db": -0.19278659798930706,
+          "50_hz_prominence_db": 4.4126793608510075
+        },
+        "previous_depth_3": {
+          "25_hz_prominence_db": 1.3777485065989759,
+          "30_hz_prominence_db": -1.0449235351109594,
+          "50_hz_prominence_db": 6.241818380823782
+        },
+        "previous_depth_8": {
+          "25_hz_prominence_db": 21.285382973872913,
+          "30_hz_prominence_db": -1.993699246845775,
+          "50_hz_prominence_db": 28.59276456451123
+        }
+      },
+      "video_decode": "passed"
+    },
+    "dodge_image": {
+      "trace": "outputs/dodge_image_muq_responsive3/trace.json",
+      "validation": {
+        "layers": 3,
+        "native_checks": [
+          {
+            "heads": 16,
+            "queries": 3066,
+            "playback_segments": 4872,
+            "duration_seconds": 122.64,
+            "guard_violations": 0,
+            "maximum_remote_voices": 3
+          },
+          {
+            "heads": 16,
+            "queries": 3066,
+            "playback_segments": 5899,
+            "duration_seconds": 122.64,
+            "guard_violations": 0,
+            "maximum_remote_voices": 3
+          },
+          {
+            "heads": 16,
+            "queries": 3066,
+            "playback_segments": 6197,
+            "duration_seconds": 122.64,
+            "guard_violations": 0,
+            "maximum_remote_voices": 3
+          }
+        ],
+        "duration_seconds": 122.64,
+        "reconstruction_max_error_bound": 1e-06,
+        "peak": 0.800000011920929,
+        "annotations": 1
+      },
+      "layers": [
+        {
+          "layer": 1,
+          "scheduled_samples": 8830080,
+          "unselected_samples": 0,
+          "unsupported_samples": 0,
+          "unsupported_fraction": 0.0,
+          "runs": 4872,
+          "median_run_seconds": 0.04,
+          "maximum_run_seconds": 3.64,
+          "runs_over_15_seconds": 0,
+          "runs_at_most_50_ms": 3327,
+          "near_vertical_run_fraction": 0.06609195402298851
+        },
+        {
+          "layer": 2,
+          "scheduled_samples": 8830080,
+          "unselected_samples": 0,
+          "unsupported_samples": 0,
+          "unsupported_fraction": 0.0,
+          "runs": 5899,
+          "median_run_seconds": 0.04,
+          "maximum_run_seconds": 1.6,
+          "runs_over_15_seconds": 0,
+          "runs_at_most_50_ms": 4312,
+          "near_vertical_run_fraction": 0.06628242074927954
+        },
+        {
+          "layer": 3,
+          "scheduled_samples": 8830080,
+          "unselected_samples": 0,
+          "unsupported_samples": 0,
+          "unsupported_fraction": 0.0,
+          "runs": 6197,
+          "median_run_seconds": 0.04,
+          "maximum_run_seconds": 2.08,
+          "runs_over_15_seconds": 0,
+          "runs_at_most_50_ms": 4635,
+          "near_vertical_run_fraction": 0.04857188962401162
+        }
+      ],
+      "spectral_diagnostics": {
+        "source": {
+          "25_hz_prominence_db": 1.1133448440162799,
+          "30_hz_prominence_db": 1.0002667938817542,
+          "50_hz_prominence_db": 1.2349864102440096
+        },
+        "new_depth_3": {
+          "25_hz_prominence_db": 8.759667838753877,
+          "30_hz_prominence_db": 0.18102773654114476,
+          "50_hz_prominence_db": 11.364818020114928
+        }
+      },
+      "video_decode": "passed"
+    },
+    "chirp_sequence": {
+      "trace": "outputs/chirp_sequence_muq_responsive3/trace.json",
+      "validation": {
+        "layers": 3,
+        "native_checks": [
+          {
+            "heads": 16,
+            "queries": 800,
+            "playback_segments": 521,
+            "duration_seconds": 32.0,
+            "guard_violations": 0,
+            "maximum_remote_voices": 3
+          },
+          {
+            "heads": 16,
+            "queries": 800,
+            "playback_segments": 698,
+            "duration_seconds": 32.0,
+            "guard_violations": 0,
+            "maximum_remote_voices": 3
+          },
+          {
+            "heads": 16,
+            "queries": 800,
+            "playback_segments": 788,
+            "duration_seconds": 32.0,
+            "guard_violations": 0,
+            "maximum_remote_voices": 3
+          }
+        ],
+        "duration_seconds": 32.0,
+        "reconstruction_max_error_bound": 1e-06,
+        "peak": 0.5162293910980225,
+        "annotations": 39
+      },
+      "layers": [
+        {
+          "layer": 1,
+          "scheduled_samples": 2304000,
+          "unselected_samples": 0,
+          "unsupported_samples": 0,
+          "unsupported_fraction": 0.0,
+          "runs": 521,
+          "median_run_seconds": 0.08,
+          "maximum_run_seconds": 3.48,
+          "runs_over_15_seconds": 0,
+          "runs_at_most_50_ms": 258,
+          "near_vertical_run_fraction": 0.15163147792706333
+        },
+        {
+          "layer": 2,
+          "scheduled_samples": 2304000,
+          "unselected_samples": 0,
+          "unsupported_samples": 0,
+          "unsupported_fraction": 0.0,
+          "runs": 698,
+          "median_run_seconds": 0.04,
+          "maximum_run_seconds": 2.84,
+          "runs_over_15_seconds": 0,
+          "runs_at_most_50_ms": 350,
+          "near_vertical_run_fraction": 0.08595988538681948
+        },
+        {
+          "layer": 3,
+          "scheduled_samples": 2304000,
+          "unselected_samples": 0,
+          "unsupported_samples": 0,
+          "unsupported_fraction": 0.0,
+          "runs": 788,
+          "median_run_seconds": 0.04,
+          "maximum_run_seconds": 1.64,
+          "runs_over_15_seconds": 0,
+          "runs_at_most_50_ms": 469,
+          "near_vertical_run_fraction": 0.1446700507614213
+        }
+      ],
+      "spectral_diagnostics": {
+        "source": {
+          "25_hz_prominence_db": -1.266089111807379,
+          "30_hz_prominence_db": 1.7442425752491733,
+          "50_hz_prominence_db": 1.053344519406498
+        },
+        "new_depth_3": {
+          "25_hz_prominence_db": 2.3768637605966947,
+          "30_hz_prominence_db": 1.8559100955514722,
+          "50_hz_prominence_db": 12.37866049624036
+        },
+        "previous_depth_3": {
+          "25_hz_prominence_db": 5.831190224085496,
+          "30_hz_prominence_db": 3.207758017508811,
+          "50_hz_prominence_db": 13.975471645876983
+        },
+        "previous_depth_8": {
+          "25_hz_prominence_db": 18.381422913791607,
+          "30_hz_prominence_db": 2.1791379486080604,
+          "50_hz_prominence_db": 38.1438641953999
+        }
+      },
+      "video_decode": "passed"
+    }
+  }
+}

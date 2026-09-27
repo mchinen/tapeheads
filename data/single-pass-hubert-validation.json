@@ -1,0 +1,16 @@
+{
+  "generator": "python -m tools.verify_multilayer",
+  "encoder": "hubert",
+  "maximum_errors": [
+    2.9802322387695312e-08,
+    3.129243850708008e-07,
+    3.8743019104003906e-07,
+    5.513429641723633e-07,
+    5.364418029785156e-07,
+    5.960464477539062e-07,
+    7.748603820800781e-07,
+    5.662441253662109e-07
+  ],
+  "absolute_tolerance": 1e-05,
+  "duration_seconds": 4
+}

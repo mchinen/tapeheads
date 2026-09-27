@@ -1,0 +1,68 @@
+{
+  "generator": "python -m tools.validate_sustained_examples",
+  "statistic": "uninterrupted 1x source-to-output runs, including loops as separate runs",
+  "comparisons": {
+    "chirp_sequence_wav2vec2": {
+      "tapeheads/1": {
+        "segments": 3219,
+        "median_seconds": 0.04,
+        "p90_seconds": 0.28,
+        "maximum_seconds": 2.46
+      },
+      "tapeheads/2": {
+        "segments": 83,
+        "median_seconds": 0.36,
+        "p90_seconds": 2.9559999999999995,
+        "maximum_seconds": 9.0
+      }
+    },
+    "blue_suede_shoes_full_wav2vec2": {
+      "tapeheads/1": {
+        "segments": 27534,
+        "median_seconds": 0.04,
+        "p90_seconds": 0.1,
+        "maximum_seconds": 2.96
+      },
+      "tapeheads/2": {
+        "segments": 954,
+        "median_seconds": 0.26,
+        "p90_seconds": 0.78,
+        "maximum_seconds": 5.0
+      }
+    }
+  },
+  "validation": {
+    "chirp_sequence_wav2vec2_v2": {
+      "heads": 12,
+      "queries": 1599,
+      "playback_segments": 83,
+      "duration_seconds": 32.0,
+      "guard_violations": 0,
+      "maximum_remote_voices": 3
+    },
+    "blue_suede_shoes_full_wav2vec2_v2": {
+      "heads": 12,
+      "queries": 6127,
+      "playback_segments": 954,
+      "duration_seconds": 122.5549375,
+      "guard_violations": 0,
+      "maximum_remote_voices": 3
+    },
+    "chirp_sequence_clap_v2": {
+      "heads": 4,
+      "queries": 102,
+      "playback_segments": 0,
+      "duration_seconds": 4.0,
+      "guard_violations": 0,
+      "maximum_remote_voices": 0
+    },
+    "chirp_sequence_muq_v2": {
+      "heads": 16,
+      "queries": 100,
+      "playback_segments": 16,
+      "duration_seconds": 4.0,
+      "guard_violations": 0,
+      "maximum_remote_voices": 3
+    }
+  }
+}

@@ -1,0 +1,507 @@
+{
+  "format": "tapeheads-signals/1",
+  "id": "chirp_sequence",
+  "title": "Four chirps / sine / Gaussian noise / silence / DTMF",
+  "generator": "tools/generate_chirp_sequence.py",
+  "generator_sha256": "a44a8d880332df54e960f02c040cfc2342db2dfe6ad7c5161521e01e4fe39d51",
+  "numpy_version": "2.2.3",
+  "seed": 20260919,
+  "sample_rate_hz": 48000,
+  "samples": 1536000,
+  "duration_seconds": 32.0,
+  "sample_format": "float32 WAV",
+  "peak": 0.43859410285949707,
+  "rate_policy": "48 kHz master resampled by FFmpeg; no normalization",
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "events": [
+    {
+      "kind": "silence",
+      "start_sample": 0,
+      "end_sample": 48000,
+      "start_seconds": 0.0,
+      "end_seconds": 1.0,
+      "parameters": {}
+    },
+    {
+      "kind": "chirp",
+      "start_sample": 48000,
+      "end_sample": 192000,
+      "start_seconds": 1.0,
+      "end_seconds": 4.0,
+      "parameters": {
+        "repetition": 1,
+        "start_hz": 40,
+        "end_hz": 7000,
+        "sweep": "linear",
+        "amplitude": 0.25,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "sine",
+      "start_sample": 192000,
+      "end_sample": 264000,
+      "start_seconds": 4.0,
+      "end_seconds": 5.5,
+      "parameters": {
+        "frequency_hz": 220,
+        "amplitude": 0.25,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "gaussian_noise",
+      "start_sample": 264000,
+      "end_sample": 336000,
+      "start_seconds": 5.5,
+      "end_seconds": 7.0,
+      "parameters": {
+        "mean": 0,
+        "standard_deviation": 0.1,
+        "seed": 20260919,
+        "sequence_draw": 1,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 336000,
+      "end_sample": 384000,
+      "start_seconds": 7.0,
+      "end_seconds": 8.0,
+      "parameters": {}
+    },
+    {
+      "kind": "dtmf",
+      "start_sample": 384000,
+      "end_sample": 400800,
+      "start_seconds": 8.0,
+      "end_seconds": 8.35,
+      "parameters": {
+        "symbol": "1",
+        "frequencies_hz": [
+          697,
+          1209
+        ],
+        "amplitude_per_tone": 0.125,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 400800,
+      "end_sample": 408000,
+      "start_seconds": 8.35,
+      "end_seconds": 8.5,
+      "parameters": {}
+    },
+    {
+      "kind": "dtmf",
+      "start_sample": 408000,
+      "end_sample": 424800,
+      "start_seconds": 8.5,
+      "end_seconds": 8.85,
+      "parameters": {
+        "symbol": "2",
+        "frequencies_hz": [
+          697,
+          1336
+        ],
+        "amplitude_per_tone": 0.125,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 424800,
+      "end_sample": 432000,
+      "start_seconds": 8.85,
+      "end_seconds": 9.0,
+      "parameters": {}
+    },
+    {
+      "kind": "dtmf",
+      "start_sample": 432000,
+      "end_sample": 448800,
+      "start_seconds": 9.0,
+      "end_seconds": 9.35,
+      "parameters": {
+        "symbol": "3",
+        "frequencies_hz": [
+          697,
+          1477
+        ],
+        "amplitude_per_tone": 0.125,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 448800,
+      "end_sample": 456000,
+      "start_seconds": 9.35,
+      "end_seconds": 9.5,
+      "parameters": {}
+    },
+    {
+      "kind": "dtmf",
+      "start_sample": 456000,
+      "end_sample": 472800,
+      "start_seconds": 9.5,
+      "end_seconds": 9.85,
+      "parameters": {
+        "symbol": "A",
+        "frequencies_hz": [
+          697,
+          1633
+        ],
+        "amplitude_per_tone": 0.125,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 472800,
+      "end_sample": 480000,
+      "start_seconds": 9.85,
+      "end_seconds": 10.0,
+      "parameters": {}
+    },
+    {
+      "kind": "chirp",
+      "start_sample": 480000,
+      "end_sample": 624000,
+      "start_seconds": 10.0,
+      "end_seconds": 13.0,
+      "parameters": {
+        "repetition": 2,
+        "start_hz": 40,
+        "end_hz": 7000,
+        "sweep": "linear",
+        "amplitude": 0.25,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "sine",
+      "start_sample": 624000,
+      "end_sample": 696000,
+      "start_seconds": 13.0,
+      "end_seconds": 14.5,
+      "parameters": {
+        "frequency_hz": 440,
+        "amplitude": 0.25,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "gaussian_noise",
+      "start_sample": 696000,
+      "end_sample": 768000,
+      "start_seconds": 14.5,
+      "end_seconds": 16.0,
+      "parameters": {
+        "mean": 0,
+        "standard_deviation": 0.1,
+        "seed": 20260919,
+        "sequence_draw": 2,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 768000,
+      "end_sample": 816000,
+      "start_seconds": 16.0,
+      "end_seconds": 17.0,
+      "parameters": {}
+    },
+    {
+      "kind": "dtmf",
+      "start_sample": 816000,
+      "end_sample": 832800,
+      "start_seconds": 17.0,
+      "end_seconds": 17.35,
+      "parameters": {
+        "symbol": "4",
+        "frequencies_hz": [
+          770,
+          1209
+        ],
+        "amplitude_per_tone": 0.125,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 832800,
+      "end_sample": 840000,
+      "start_seconds": 17.35,
+      "end_seconds": 17.5,
+      "parameters": {}
+    },
+    {
+      "kind": "dtmf",
+      "start_sample": 840000,
+      "end_sample": 856800,
+      "start_seconds": 17.5,
+      "end_seconds": 17.85,
+      "parameters": {
+        "symbol": "5",
+        "frequencies_hz": [
+          770,
+          1336
+        ],
+        "amplitude_per_tone": 0.125,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 856800,
+      "end_sample": 864000,
+      "start_seconds": 17.85,
+      "end_seconds": 18.0,
+      "parameters": {}
+    },
+    {
+      "kind": "dtmf",
+      "start_sample": 864000,
+      "end_sample": 880800,
+      "start_seconds": 18.0,
+      "end_seconds": 18.35,
+      "parameters": {
+        "symbol": "6",
+        "frequencies_hz": [
+          770,
+          1477
+        ],
+        "amplitude_per_tone": 0.125,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 880800,
+      "end_sample": 888000,
+      "start_seconds": 18.35,
+      "end_seconds": 18.5,
+      "parameters": {}
+    },
+    {
+      "kind": "dtmf",
+      "start_sample": 888000,
+      "end_sample": 904800,
+      "start_seconds": 18.5,
+      "end_seconds": 18.85,
+      "parameters": {
+        "symbol": "B",
+        "frequencies_hz": [
+          770,
+          1633
+        ],
+        "amplitude_per_tone": 0.125,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 904800,
+      "end_sample": 912000,
+      "start_seconds": 18.85,
+      "end_seconds": 19.0,
+      "parameters": {}
+    },
+    {
+      "kind": "chirp",
+      "start_sample": 912000,
+      "end_sample": 1056000,
+      "start_seconds": 19.0,
+      "end_seconds": 22.0,
+      "parameters": {
+        "repetition": 3,
+        "start_hz": 40,
+        "end_hz": 7000,
+        "sweep": "linear",
+        "amplitude": 0.25,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "sine",
+      "start_sample": 1056000,
+      "end_sample": 1128000,
+      "start_seconds": 22.0,
+      "end_seconds": 23.5,
+      "parameters": {
+        "frequency_hz": 880,
+        "amplitude": 0.25,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "gaussian_noise",
+      "start_sample": 1128000,
+      "end_sample": 1200000,
+      "start_seconds": 23.5,
+      "end_seconds": 25.0,
+      "parameters": {
+        "mean": 0,
+        "standard_deviation": 0.1,
+        "seed": 20260919,
+        "sequence_draw": 3,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 1200000,
+      "end_sample": 1248000,
+      "start_seconds": 25.0,
+      "end_seconds": 26.0,
+      "parameters": {}
+    },
+    {
+      "kind": "dtmf",
+      "start_sample": 1248000,
+      "end_sample": 1264800,
+      "start_seconds": 26.0,
+      "end_seconds": 26.35,
+      "parameters": {
+        "symbol": "7",
+        "frequencies_hz": [
+          852,
+          1209
+        ],
+        "amplitude_per_tone": 0.125,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 1264800,
+      "end_sample": 1272000,
+      "start_seconds": 26.35,
+      "end_seconds": 26.5,
+      "parameters": {}
+    },
+    {
+      "kind": "dtmf",
+      "start_sample": 1272000,
+      "end_sample": 1288800,
+      "start_seconds": 26.5,
+      "end_seconds": 26.85,
+      "parameters": {
+        "symbol": "8",
+        "frequencies_hz": [
+          852,
+          1336
+        ],
+        "amplitude_per_tone": 0.125,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 1288800,
+      "end_sample": 1296000,
+      "start_seconds": 26.85,
+      "end_seconds": 27.0,
+      "parameters": {}
+    },
+    {
+      "kind": "dtmf",
+      "start_sample": 1296000,
+      "end_sample": 1312800,
+      "start_seconds": 27.0,
+      "end_seconds": 27.35,
+      "parameters": {
+        "symbol": "9",
+        "frequencies_hz": [
+          852,
+          1477
+        ],
+        "amplitude_per_tone": 0.125,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 1312800,
+      "end_sample": 1320000,
+      "start_seconds": 27.35,
+      "end_seconds": 27.5,
+      "parameters": {}
+    },
+    {
+      "kind": "dtmf",
+      "start_sample": 1320000,
+      "end_sample": 1336800,
+      "start_seconds": 27.5,
+      "end_seconds": 27.85,
+      "parameters": {
+        "symbol": "C",
+        "frequencies_hz": [
+          852,
+          1633
+        ],
+        "amplitude_per_tone": 0.125,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 1336800,
+      "end_sample": 1344000,
+      "start_seconds": 27.85,
+      "end_seconds": 28.0,
+      "parameters": {}
+    },
+    {
+      "kind": "chirp",
+      "start_sample": 1344000,
+      "end_sample": 1488000,
+      "start_seconds": 28.0,
+      "end_seconds": 31.0,
+      "parameters": {
+        "repetition": 4,
+        "start_hz": 40,
+        "end_hz": 7000,
+        "sweep": "linear",
+        "amplitude": 0.25,
+        "fade_seconds": 0.01
+      }
+    },
+    {
+      "kind": "silence",
+      "start_sample": 1488000,
+      "end_sample": 1536000,
+      "start_seconds": 31.0,
+      "end_seconds": 32.0,
+      "parameters": {}
+    }
+  ],
+  "files": [
+    {
+      "path": "data/audio/chirp_sequence/mono_48000.wav",
+      "sha256": "cf3b39061a605df684abcecda21fdf3f2932043701297c94bd09ced89ca3f401",
+      "samples": 1536000,
+      "sample_rate_hz": 48000,
+      "channels": 1
+    },
+    {
+      "path": "data/audio/chirp_sequence/mono_16000.wav",
+      "sha256": "bfb278d380ae78fafb01cd7f3b08699af0a782eb85aeae4afb35fcea4fc98156",
+      "samples": 512000,
+      "sample_rate_hz": 16000,
+      "channels": 1
+    },
+    {
+      "path": "data/audio/chirp_sequence/mono_24000.wav",
+      "sha256": "86e7903adfa4b81001d6ab9fe7252545badaaa4126499b27c1a4c5d64b1952e9",
+      "samples": 768000,
+      "sample_rate_hz": 24000,
+      "channels": 1
+    }
+  ]
+}
